@@ -1,6 +1,6 @@
 import UIKit
 
-class WebSocketExampleViewController: UIViewController {
+class WebSocketViewController: UIViewController {
 
     @IBOutlet var butCancel: UIButton!
     private var socket: URLSessionWebSocketTask!
@@ -8,6 +8,8 @@ class WebSocketExampleViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        butCancel.addTarget(self, action: #selector(onCloseTap), for: .touchUpInside)
+        
         let session = URLSession(configuration: .default, delegate: self, delegateQueue: OperationQueue())
         let url = URL(string: "wss://demo.piesocket.com/v3/channel_1?api_key=xxxxx")
         let socket = session.webSocketTask(with: url!)
@@ -15,13 +17,14 @@ class WebSocketExampleViewController: UIViewController {
     }
     
     @IBAction func onCloseTap() {
-        self.close()
+        cancelSocket()
     }
-}
-
-extension WebSocketExampleViewController {
-
-    func ping() {
+    
+    private func cancelSocket() {
+        socket.cancel(with: .goingAway, reason: "Demo ended".data(using: .utf8))
+    }
+    
+    private func ping() {
         socket.sendPing { error in
             if let error = error {
                 print(error.localizedDescription)
@@ -29,11 +32,7 @@ extension WebSocketExampleViewController {
         }
     }
     
-    func close() {
-        socket.cancel(with: .goingAway, reason: "Demo ended".data(using: .utf8))
-    }
-    
-    func send() {
+    private func send() {
         socket.send(.string("Hello Worldd")) { error in
             if let error = error {
                 print(error.localizedDescription)
@@ -41,7 +40,7 @@ extension WebSocketExampleViewController {
         }
     }
     
-    func receive() {
+    private func receive() {
         socket.receive { [weak self] result in
             switch result {
             case .success(let message):
@@ -65,7 +64,7 @@ extension WebSocketExampleViewController {
     }
 }
 
-extension WebSocketExampleViewController: URLSessionWebSocketDelegate {
+extension WebSocketViewController: URLSessionWebSocketDelegate {
 
     func urlSession(_ session: URLSession, webSocketTask: URLSessionWebSocketTask, didOpenWithProtocol protocol: String?) {
         print("Connected to socket.")
