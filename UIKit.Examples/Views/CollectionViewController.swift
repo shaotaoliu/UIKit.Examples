@@ -3,6 +3,7 @@ import UIKit
 class CollectionViewController: UIViewController {
 
     @IBOutlet weak var collection: UICollectionView!
+    @IBOutlet weak var barItem: UITabBarItem!
     let images: [String] = (1...6).map { "img\($0)" }
     
     override func viewDidLoad() {
@@ -11,6 +12,8 @@ class CollectionViewController: UIViewController {
         collection.delegate = self
         collection.dataSource = self
         collection.collectionViewLayout = UICollectionViewFlowLayout()
+        
+        barItem.badgeValue = "3"
     }
 }
 

@@ -19,6 +19,12 @@
 		4A72F59127A32EDF00C77184 /* WebSocketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72F59027A32EDF00C77184 /* WebSocketViewController.swift */; };
 		4A72F59427A3323200C77184 /* views.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A72F59327A3323200C77184 /* views.storyboard */; };
 		4A72F59627A3325100C77184 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72F59527A3325100C77184 /* CollectionViewController.swift */; };
+		4A72F59A27A3448700C77184 /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72F59927A3448700C77184 /* SpinnerViewController.swift */; };
+		4A72F59E27A35C6700C77184 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72F59D27A35C6700C77184 /* ImageViewController.swift */; };
+		4A72F5A027A367C500C77184 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72F59F27A367C500C77184 /* PickerViewController.swift */; };
+		4A72F5A227A37F4700C77184 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72F5A127A37F4700C77184 /* DatePickerViewController.swift */; };
+		4A72F5A427A3831700C77184 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72F5A327A3831700C77184 /* ColorPickerViewController.swift */; };
+		4A72F5A627A3832700C77184 /* FontPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72F5A527A3832700C77184 /* FontPickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +42,12 @@
 		4A72F59027A32EDF00C77184 /* WebSocketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketViewController.swift; sourceTree = "<group>"; };
 		4A72F59327A3323200C77184 /* views.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = views.storyboard; sourceTree = "<group>"; };
 		4A72F59527A3325100C77184 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		4A72F59927A3448700C77184 /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
+		4A72F59D27A35C6700C77184 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		4A72F59F27A367C500C77184 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		4A72F5A127A37F4700C77184 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		4A72F5A327A3831700C77184 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
+		4A72F5A527A3832700C77184 /* FontPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontPickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +100,11 @@
 			children = (
 				4A72F58B27A31D8300C77184 /* controls.storyboard */,
 				4A72F58827A290BF00C77184 /* SwitchViewController.swift */,
+				4A72F59D27A35C6700C77184 /* ImageViewController.swift */,
+				4A72F59F27A367C500C77184 /* PickerViewController.swift */,
+				4A72F5A127A37F4700C77184 /* DatePickerViewController.swift */,
+				4A72F5A327A3831700C77184 /* ColorPickerViewController.swift */,
+				4A72F5A527A3832700C77184 /* FontPickerViewController.swift */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -105,6 +122,7 @@
 			children = (
 				4A72F59327A3323200C77184 /* views.storyboard */,
 				4A72F59527A3325100C77184 /* CollectionViewController.swift */,
+				4A72F59927A3448700C77184 /* SpinnerViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,11 +200,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A72F5A027A367C500C77184 /* PickerViewController.swift in Sources */,
 				4A72F57927A2908600C77184 /* ViewController.swift in Sources */,
+				4A72F5A427A3831700C77184 /* ColorPickerViewController.swift in Sources */,
 				4A72F57527A2908600C77184 /* AppDelegate.swift in Sources */,
+				4A72F59E27A35C6700C77184 /* ImageViewController.swift in Sources */,
 				4A72F59127A32EDF00C77184 /* WebSocketViewController.swift in Sources */,
+				4A72F5A227A37F4700C77184 /* DatePickerViewController.swift in Sources */,
 				4A72F58927A290BF00C77184 /* SwitchViewController.swift in Sources */,
+				4A72F59A27A3448700C77184 /* SpinnerViewController.swift in Sources */,
 				4A72F59627A3325100C77184 /* CollectionViewController.swift in Sources */,
+				4A72F5A627A3832700C77184 /* FontPickerViewController.swift in Sources */,
 				4A72F58E27A32B9800C77184 /* examples.swift in Sources */,
 				4A72F57727A2908600C77184 /* SceneDelegate.swift in Sources */,
 			);

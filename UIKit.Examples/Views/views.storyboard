@@ -9,16 +9,34 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--CollectionViewController-->
+        <!--Tab Bar-->
+        <scene sceneID="1NK-2q-tpt">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0D5-Ww-OPa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tabBarController storyboardIdentifier="TabBarController" title="Tab Bar" id="Fd8-Ch-XAH" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="N8Y-e3-5R8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="viewControllers" id="oEF-tx-TBA"/>
+                        <segue destination="U5e-eZ-iGU" kind="relationship" relationship="viewControllers" id="KWS-fr-7Ad"/>
+                    </connections>
+                </tabBarController>
+            </objects>
+            <point key="canvasLocation" x="-1191" y="-60"/>
+        </scene>
+        <!--Collection-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController storyboardIdentifier="CollectionViewController" title="CollectionViewController" id="Y6W-OH-hqX" customClass="CollectionViewController" customModule="UIKit_Examples" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CollectionViewController" title="Collection" id="Y6W-OH-hqX" customClass="CollectionViewController" customModule="UIKit_Examples" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="HNV-CO-WMT">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="0eE-9x-fjn">
                                     <size key="itemSize" width="130" height="168"/>
@@ -74,18 +92,84 @@
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="HNV-CO-WMT" secondAttribute="bottom" id="skj-Nf-7AI"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Collection" image="doc.richtext" catalog="system" id="7if-mW-i9a"/>
                     <connections>
+                        <outlet property="barItem" destination="7if-mW-i9a" id="XcM-Q0-3HK"/>
                         <outlet property="collection" destination="HNV-CO-WMT" id="UDx-rl-fOp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="131.8840579710145" y="107.8125"/>
+            <point key="canvasLocation" x="-413" y="-518"/>
+        </scene>
+        <!--Switch-->
+        <scene sceneID="m8b-0r-lQb">
+            <objects>
+                <viewController storyboardIdentifier="SpinnerViewController" title="Switch" id="U5e-eZ-iGU" customClass="SpinnerViewController" customModule="UIKit_Examples" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="25s-u7-h5G">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="gBy-LS-PtQ">
+                                <rect key="frame" x="188.5" y="361" width="37" height="37"/>
+                                <color key="color" systemColor="systemBlueColor"/>
+                            </activityIndicatorView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kOK-Hf-vX9">
+                                <rect key="frame" x="107" y="428" width="200" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="9p8-Gx-Lu1"/>
+                                    <constraint firstAttribute="height" constant="40" id="hmX-NC-jtb"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Run"/>
+                                <connections>
+                                    <action selector="run:" destination="U5e-eZ-iGU" eventType="touchUpInside" id="MJf-XH-Uo3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hS9-Qc-lNY">
+                                <rect key="frame" x="107" y="498" width="200" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="2Fp-YZ-uI1"/>
+                                    <constraint firstAttribute="width" constant="200" id="onN-NV-fIf"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Stop"/>
+                                <connections>
+                                    <action selector="stop:" destination="U5e-eZ-iGU" eventType="touchUpInside" id="JRs-VG-0OY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fwT-SJ-3HZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kOK-Hf-vX9" firstAttribute="centerY" secondItem="25s-u7-h5G" secondAttribute="centerY" id="12G-Kd-6rD"/>
+                            <constraint firstItem="hS9-Qc-lNY" firstAttribute="centerX" secondItem="25s-u7-h5G" secondAttribute="centerX" id="3Do-nN-mSa"/>
+                            <constraint firstItem="kOK-Hf-vX9" firstAttribute="top" secondItem="gBy-LS-PtQ" secondAttribute="bottom" constant="30" id="7dc-1V-qEf"/>
+                            <constraint firstItem="hS9-Qc-lNY" firstAttribute="top" secondItem="kOK-Hf-vX9" secondAttribute="bottom" constant="30" id="7p6-Jr-dIe"/>
+                            <constraint firstItem="kOK-Hf-vX9" firstAttribute="centerX" secondItem="25s-u7-h5G" secondAttribute="centerX" id="Mxd-0c-ASD"/>
+                            <constraint firstItem="gBy-LS-PtQ" firstAttribute="centerX" secondItem="25s-u7-h5G" secondAttribute="centerX" id="NlG-k3-OBt"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Switch" image="hand.point.right.fill" catalog="system" id="BT2-Hs-DCX"/>
+                    <connections>
+                        <outlet property="buttonRun" destination="kOK-Hf-vX9" id="AbV-7V-8fV"/>
+                        <outlet property="buttonStop" destination="hS9-Qc-lNY" id="EPN-ia-f93"/>
+                        <outlet property="spinner" destination="gBy-LS-PtQ" id="x0Y-SQ-gdk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qTM-dY-eqD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-413" y="188"/>
         </scene>
     </scenes>
     <resources>
+        <image name="doc.richtext" catalog="system" width="115" height="128"/>
+        <image name="hand.point.right.fill" catalog="system" width="128" height="99"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
