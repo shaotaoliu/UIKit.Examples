@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A5D9A7F27A3E64A004C7C2C /* pickers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5D9A7E27A3E64A004C7C2C /* pickers.storyboard */; };
 		4A72F57527A2908600C77184 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72F57427A2908600C77184 /* AppDelegate.swift */; };
 		4A72F57727A2908600C77184 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72F57627A2908600C77184 /* SceneDelegate.swift */; };
 		4A72F57927A2908600C77184 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72F57827A2908600C77184 /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A5D9A7E27A3E64A004C7C2C /* pickers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = pickers.storyboard; sourceTree = "<group>"; };
 		4A72F57127A2908600C77184 /* UIKit.Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKit.Examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A72F57427A2908600C77184 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A72F57627A2908600C77184 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A5D9A7D27A3E5FB004C7C2C /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				4A5D9A7E27A3E64A004C7C2C /* pickers.storyboard */,
+				4A72F59F27A367C500C77184 /* PickerViewController.swift */,
+				4A72F5A127A37F4700C77184 /* DatePickerViewController.swift */,
+				4A72F5A327A3831700C77184 /* ColorPickerViewController.swift */,
+				4A72F5A527A3832700C77184 /* FontPickerViewController.swift */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
 		4A72F56827A2908600C77184 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +99,7 @@
 				4A72F57827A2908600C77184 /* ViewController.swift */,
 				4A72F58A27A303CC00C77184 /* Controls */,
 				4A72F59227A3321900C77184 /* Views */,
+				4A5D9A7D27A3E5FB004C7C2C /* Pickers */,
 				4A72F58F27A32BC800C77184 /* Others */,
 				4A72F57A27A2908600C77184 /* Main.storyboard */,
 				4A72F58D27A32B9800C77184 /* examples.swift */,
@@ -101,10 +116,6 @@
 				4A72F58B27A31D8300C77184 /* controls.storyboard */,
 				4A72F58827A290BF00C77184 /* SwitchViewController.swift */,
 				4A72F59D27A35C6700C77184 /* ImageViewController.swift */,
-				4A72F59F27A367C500C77184 /* PickerViewController.swift */,
-				4A72F5A127A37F4700C77184 /* DatePickerViewController.swift */,
-				4A72F5A327A3831700C77184 /* ColorPickerViewController.swift */,
-				4A72F5A527A3832700C77184 /* FontPickerViewController.swift */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -187,6 +198,7 @@
 			files = (
 				4A72F58127A2908900C77184 /* LaunchScreen.storyboard in Resources */,
 				4A72F57E27A2908900C77184 /* Assets.xcassets in Resources */,
+				4A5D9A7F27A3E64A004C7C2C /* pickers.storyboard in Resources */,
 				4A72F58C27A31D8300C77184 /* controls.storyboard in Resources */,
 				4A72F59427A3323200C77184 /* views.storyboard in Resources */,
 				4A72F57C27A2908600C77184 /* Main.storyboard in Resources */,
