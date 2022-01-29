@@ -37,6 +37,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         let example = examples[indexPath.section].examples[indexPath.row]
         let sb = UIStoryboard(name: example.storyboard, bundle: nil)
         let vc = sb.instantiateViewController(withIdentifier: example.identifier)
+        vc.title = example.title
         navigationController?.pushViewController(vc, animated: true)
     }
     

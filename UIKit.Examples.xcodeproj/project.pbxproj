@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		4A5D9A7F27A3E64A004C7C2C /* pickers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5D9A7E27A3E64A004C7C2C /* pickers.storyboard */; };
+		4A5D9A8127A460DF004C7C2C /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D9A8027A460DF004C7C2C /* AlertViewController.swift */; };
+		4A5D9A8327A460ED004C7C2C /* SearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D9A8227A460ED004C7C2C /* SearchBarViewController.swift */; };
+		4A5D9A8527A47215004C7C2C /* SegmentControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D9A8427A47215004C7C2C /* SegmentControlViewController.swift */; };
+		4A5D9A8727A48338004C7C2C /* ProgressBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D9A8627A48338004C7C2C /* ProgressBarViewController.swift */; };
+		4A5D9A8927A4A54D004C7C2C /* StepperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D9A8827A4A54D004C7C2C /* StepperViewController.swift */; };
+		4A5D9A8B27A4A581004C7C2C /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D9A8A27A4A581004C7C2C /* SliderViewController.swift */; };
+		4A5D9A8D27A4B53F004C7C2C /* ToobarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D9A8C27A4B53E004C7C2C /* ToobarViewController.swift */; };
+		4A5D9A8F27A4B93E004C7C2C /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D9A8E27A4B93E004C7C2C /* ButtonViewController.swift */; };
+		4A5D9A9127A4B94B004C7C2C /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D9A9027A4B94B004C7C2C /* TextFieldViewController.swift */; };
+		4A5D9A9327A4B95A004C7C2C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D9A9227A4B95A004C7C2C /* MenuViewController.swift */; };
+		4A5D9A9527A4BB07004C7C2C /* PageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D9A9427A4BB07004C7C2C /* PageControlViewController.swift */; };
+		4A5D9A9727A4F9C4004C7C2C /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D9A9627A4F9C4004C7C2C /* ImagePickerViewController.swift */; };
+		4A5D9A9927A5003A004C7C2C /* others.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5D9A9827A5003A004C7C2C /* others.storyboard */; };
 		4A72F57527A2908600C77184 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72F57427A2908600C77184 /* AppDelegate.swift */; };
 		4A72F57727A2908600C77184 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72F57627A2908600C77184 /* SceneDelegate.swift */; };
 		4A72F57927A2908600C77184 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72F57827A2908600C77184 /* ViewController.swift */; };
@@ -30,6 +43,19 @@
 
 /* Begin PBXFileReference section */
 		4A5D9A7E27A3E64A004C7C2C /* pickers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = pickers.storyboard; sourceTree = "<group>"; };
+		4A5D9A8027A460DF004C7C2C /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		4A5D9A8227A460ED004C7C2C /* SearchBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
+		4A5D9A8427A47215004C7C2C /* SegmentControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControlViewController.swift; sourceTree = "<group>"; };
+		4A5D9A8627A48338004C7C2C /* ProgressBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarViewController.swift; sourceTree = "<group>"; };
+		4A5D9A8827A4A54D004C7C2C /* StepperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperViewController.swift; sourceTree = "<group>"; };
+		4A5D9A8A27A4A581004C7C2C /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
+		4A5D9A8C27A4B53E004C7C2C /* ToobarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToobarViewController.swift; sourceTree = "<group>"; };
+		4A5D9A8E27A4B93E004C7C2C /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		4A5D9A9027A4B94B004C7C2C /* TextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
+		4A5D9A9227A4B95A004C7C2C /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		4A5D9A9427A4BB07004C7C2C /* PageControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlViewController.swift; sourceTree = "<group>"; };
+		4A5D9A9627A4F9C4004C7C2C /* ImagePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
+		4A5D9A9827A5003A004C7C2C /* others.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = others.storyboard; sourceTree = "<group>"; };
 		4A72F57127A2908600C77184 /* UIKit.Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKit.Examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A72F57427A2908600C77184 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A72F57627A2908600C77184 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +97,7 @@
 				4A72F5A127A37F4700C77184 /* DatePickerViewController.swift */,
 				4A72F5A327A3831700C77184 /* ColorPickerViewController.swift */,
 				4A72F5A527A3832700C77184 /* FontPickerViewController.swift */,
+				4A5D9A9627A4F9C4004C7C2C /* ImagePickerViewController.swift */,
 			);
 			path = Pickers;
 			sourceTree = "<group>";
@@ -116,6 +143,11 @@
 				4A72F58B27A31D8300C77184 /* controls.storyboard */,
 				4A72F58827A290BF00C77184 /* SwitchViewController.swift */,
 				4A72F59D27A35C6700C77184 /* ImageViewController.swift */,
+				4A5D9A8227A460ED004C7C2C /* SearchBarViewController.swift */,
+				4A5D9A8427A47215004C7C2C /* SegmentControlViewController.swift */,
+				4A5D9A8E27A4B93E004C7C2C /* ButtonViewController.swift */,
+				4A5D9A9027A4B94B004C7C2C /* TextFieldViewController.swift */,
+				4A5D9A9227A4B95A004C7C2C /* MenuViewController.swift */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -123,6 +155,7 @@
 		4A72F58F27A32BC800C77184 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				4A5D9A9827A5003A004C7C2C /* others.storyboard */,
 				4A72F59027A32EDF00C77184 /* WebSocketViewController.swift */,
 			);
 			path = Others;
@@ -134,6 +167,12 @@
 				4A72F59327A3323200C77184 /* views.storyboard */,
 				4A72F59527A3325100C77184 /* CollectionViewController.swift */,
 				4A72F59927A3448700C77184 /* SpinnerViewController.swift */,
+				4A5D9A8027A460DF004C7C2C /* AlertViewController.swift */,
+				4A5D9A8627A48338004C7C2C /* ProgressBarViewController.swift */,
+				4A5D9A8827A4A54D004C7C2C /* StepperViewController.swift */,
+				4A5D9A8A27A4A581004C7C2C /* SliderViewController.swift */,
+				4A5D9A8C27A4B53E004C7C2C /* ToobarViewController.swift */,
+				4A5D9A9427A4BB07004C7C2C /* PageControlViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,6 +240,7 @@
 				4A5D9A7F27A3E64A004C7C2C /* pickers.storyboard in Resources */,
 				4A72F58C27A31D8300C77184 /* controls.storyboard in Resources */,
 				4A72F59427A3323200C77184 /* views.storyboard in Resources */,
+				4A5D9A9927A5003A004C7C2C /* others.storyboard in Resources */,
 				4A72F57C27A2908600C77184 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,19 +252,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A5D9A8527A47215004C7C2C /* SegmentControlViewController.swift in Sources */,
+				4A5D9A8F27A4B93E004C7C2C /* ButtonViewController.swift in Sources */,
 				4A72F5A027A367C500C77184 /* PickerViewController.swift in Sources */,
+				4A5D9A8127A460DF004C7C2C /* AlertViewController.swift in Sources */,
 				4A72F57927A2908600C77184 /* ViewController.swift in Sources */,
 				4A72F5A427A3831700C77184 /* ColorPickerViewController.swift in Sources */,
 				4A72F57527A2908600C77184 /* AppDelegate.swift in Sources */,
+				4A5D9A8B27A4A581004C7C2C /* SliderViewController.swift in Sources */,
+				4A5D9A8927A4A54D004C7C2C /* StepperViewController.swift in Sources */,
 				4A72F59E27A35C6700C77184 /* ImageViewController.swift in Sources */,
 				4A72F59127A32EDF00C77184 /* WebSocketViewController.swift in Sources */,
 				4A72F5A227A37F4700C77184 /* DatePickerViewController.swift in Sources */,
+				4A5D9A8D27A4B53F004C7C2C /* ToobarViewController.swift in Sources */,
 				4A72F58927A290BF00C77184 /* SwitchViewController.swift in Sources */,
 				4A72F59A27A3448700C77184 /* SpinnerViewController.swift in Sources */,
+				4A5D9A9527A4BB07004C7C2C /* PageControlViewController.swift in Sources */,
 				4A72F59627A3325100C77184 /* CollectionViewController.swift in Sources */,
+				4A5D9A8327A460ED004C7C2C /* SearchBarViewController.swift in Sources */,
+				4A5D9A8727A48338004C7C2C /* ProgressBarViewController.swift in Sources */,
+				4A5D9A9127A4B94B004C7C2C /* TextFieldViewController.swift in Sources */,
 				4A72F5A627A3832700C77184 /* FontPickerViewController.swift in Sources */,
+				4A5D9A9727A4F9C4004C7C2C /* ImagePickerViewController.swift in Sources */,
 				4A72F58E27A32B9800C77184 /* examples.swift in Sources */,
 				4A72F57727A2908600C77184 /* SceneDelegate.swift in Sources */,
+				4A5D9A9327A4B95A004C7C2C /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +428,8 @@
 				DEVELOPMENT_TEAM = YAZRH2W8WY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UIKit.Examples/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need to use camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Need to use photo library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -404,6 +458,8 @@
 				DEVELOPMENT_TEAM = YAZRH2W8WY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UIKit.Examples/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need to use camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Need to use photo library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

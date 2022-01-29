@@ -167,6 +167,50 @@
             </objects>
             <point key="canvasLocation" x="3199" y="156"/>
         </scene>
+        <!--Image Picker View Controller-->
+        <scene sceneID="JQo-en-Nsy">
+            <objects>
+                <viewController storyboardIdentifier="ImagePickerViewController" id="7zC-LC-CIa" customClass="ImagePickerViewController" customModule="UIKit_Examples" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HRc-jO-EIc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MWC-oV-bBC">
+                                <rect key="frame" x="20" y="132" width="374" height="350"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="350" id="AxZ-5g-bWw"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vlb-aD-r72">
+                                <rect key="frame" x="118.5" y="74" width="177" height="38"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Choose an Image">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="chooseButtonClicked:" destination="7zC-LC-CIa" eventType="touchUpInside" id="Sb5-Aw-lMr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gFy-6x-Uvm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vlb-aD-r72" firstAttribute="centerX" secondItem="HRc-jO-EIc" secondAttribute="centerX" id="DTN-0b-rPw"/>
+                            <constraint firstItem="vlb-aD-r72" firstAttribute="top" secondItem="gFy-6x-Uvm" secondAttribute="top" constant="30" id="WI0-Ug-qDW"/>
+                            <constraint firstItem="MWC-oV-bBC" firstAttribute="top" secondItem="vlb-aD-r72" secondAttribute="bottom" constant="20" id="Zhj-ba-fa3"/>
+                            <constraint firstItem="MWC-oV-bBC" firstAttribute="leading" secondItem="gFy-6x-Uvm" secondAttribute="leading" constant="20" id="owj-vb-Tng"/>
+                            <constraint firstItem="gFy-6x-Uvm" firstAttribute="trailing" secondItem="MWC-oV-bBC" secondAttribute="trailing" constant="20" id="p23-dc-zxV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="chooseButton" destination="vlb-aD-r72" id="S5M-uY-59T"/>
+                        <outlet property="imageView" destination="MWC-oV-bBC" id="svR-1w-6kI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0SP-mi-XgN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3896" y="181"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
