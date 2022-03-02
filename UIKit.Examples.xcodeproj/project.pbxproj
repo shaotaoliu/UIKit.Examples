@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A30686327CF448200BC9678 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A30686227CF448200BC9678 /* TableViewController.swift */; };
+		4A30686527CF44B000BC9678 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A30686427CF44B000BC9678 /* TableViewModel.swift */; };
 		4A5D9A7F27A3E64A004C7C2C /* pickers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5D9A7E27A3E64A004C7C2C /* pickers.storyboard */; };
 		4A5D9A8127A460DF004C7C2C /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D9A8027A460DF004C7C2C /* AlertViewController.swift */; };
 		4A5D9A8327A460ED004C7C2C /* SearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D9A8227A460ED004C7C2C /* SearchBarViewController.swift */; };
@@ -42,6 +44,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A30686227CF448200BC9678 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		4A30686427CF44B000BC9678 /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
 		4A5D9A7E27A3E64A004C7C2C /* pickers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = pickers.storyboard; sourceTree = "<group>"; };
 		4A5D9A8027A460DF004C7C2C /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		4A5D9A8227A460ED004C7C2C /* SearchBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
@@ -173,6 +177,8 @@
 				4A5D9A8A27A4A581004C7C2C /* SliderViewController.swift */,
 				4A5D9A8C27A4B53E004C7C2C /* ToobarViewController.swift */,
 				4A5D9A9427A4BB07004C7C2C /* PageControlViewController.swift */,
+				4A30686227CF448200BC9678 /* TableViewController.swift */,
+				4A30686427CF44B000BC9678 /* TableViewModel.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -267,6 +273,7 @@
 				4A5D9A8D27A4B53F004C7C2C /* ToobarViewController.swift in Sources */,
 				4A72F58927A290BF00C77184 /* SwitchViewController.swift in Sources */,
 				4A72F59A27A3448700C77184 /* SpinnerViewController.swift in Sources */,
+				4A30686327CF448200BC9678 /* TableViewController.swift in Sources */,
 				4A5D9A9527A4BB07004C7C2C /* PageControlViewController.swift in Sources */,
 				4A72F59627A3325100C77184 /* CollectionViewController.swift in Sources */,
 				4A5D9A8327A460ED004C7C2C /* SearchBarViewController.swift in Sources */,
@@ -275,6 +282,7 @@
 				4A72F5A627A3832700C77184 /* FontPickerViewController.swift in Sources */,
 				4A5D9A9727A4F9C4004C7C2C /* ImagePickerViewController.swift in Sources */,
 				4A72F58E27A32B9800C77184 /* examples.swift in Sources */,
+				4A30686527CF44B000BC9678 /* TableViewModel.swift in Sources */,
 				4A72F57727A2908600C77184 /* SceneDelegate.swift in Sources */,
 				4A5D9A9327A4B95A004C7C2C /* MenuViewController.swift in Sources */,
 			);
