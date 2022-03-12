@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4A30686327CF448200BC9678 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A30686227CF448200BC9678 /* TableViewController.swift */; };
 		4A30686527CF44B000BC9678 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A30686427CF44B000BC9678 /* TableViewModel.swift */; };
+		4A4A4D6B27DC2C27008ACF87 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4A4D6A27DC2C27008ACF87 /* AnimationViewController.swift */; };
 		4A5D9A7F27A3E64A004C7C2C /* pickers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5D9A7E27A3E64A004C7C2C /* pickers.storyboard */; };
 		4A5D9A8127A460DF004C7C2C /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D9A8027A460DF004C7C2C /* AlertViewController.swift */; };
 		4A5D9A8327A460ED004C7C2C /* SearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D9A8227A460ED004C7C2C /* SearchBarViewController.swift */; };
@@ -46,6 +47,7 @@
 /* Begin PBXFileReference section */
 		4A30686227CF448200BC9678 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		4A30686427CF44B000BC9678 /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
+		4A4A4D6A27DC2C27008ACF87 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		4A5D9A7E27A3E64A004C7C2C /* pickers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = pickers.storyboard; sourceTree = "<group>"; };
 		4A5D9A8027A460DF004C7C2C /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		4A5D9A8227A460ED004C7C2C /* SearchBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +95,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A4A4D6927DC2BED008ACF87 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4A30686427CF44B000BC9678 /* TableViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		4A5D9A7D27A3E5FB004C7C2C /* Pickers */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +178,7 @@
 		4A72F59227A3321900C77184 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4A4A4D6927DC2BED008ACF87 /* ViewModels */,
 				4A72F59327A3323200C77184 /* views.storyboard */,
 				4A72F59527A3325100C77184 /* CollectionViewController.swift */,
 				4A72F59927A3448700C77184 /* SpinnerViewController.swift */,
@@ -178,7 +189,7 @@
 				4A5D9A8C27A4B53E004C7C2C /* ToobarViewController.swift */,
 				4A5D9A9427A4BB07004C7C2C /* PageControlViewController.swift */,
 				4A30686227CF448200BC9678 /* TableViewController.swift */,
-				4A30686427CF44B000BC9678 /* TableViewModel.swift */,
+				4A4A4D6A27DC2C27008ACF87 /* AnimationViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -281,6 +292,7 @@
 				4A5D9A9127A4B94B004C7C2C /* TextFieldViewController.swift in Sources */,
 				4A72F5A627A3832700C77184 /* FontPickerViewController.swift in Sources */,
 				4A5D9A9727A4F9C4004C7C2C /* ImagePickerViewController.swift in Sources */,
+				4A4A4D6B27DC2C27008ACF87 /* AnimationViewController.swift in Sources */,
 				4A72F58E27A32B9800C77184 /* examples.swift in Sources */,
 				4A30686527CF44B000BC9678 /* TableViewModel.swift in Sources */,
 				4A72F57727A2908600C77184 /* SceneDelegate.swift in Sources */,

@@ -21,7 +21,8 @@ let examples: [ExampleSection] = [
         SwiftExample(title: "Stack View", storyboard: "views", identifier: "StackViewController"),
         SwiftExample(title: "Toolbar", storyboard: "views", identifier: "ToobarViewController"),
         SwiftExample(title: "Page Control", storyboard: "views", identifier: "PageControlViewController"),
-        SwiftExample(title: "Table View", storyboard: "views", identifier: "TableViewController")
+        SwiftExample(title: "Table View", storyboard: "views", identifier: "TableViewController"),
+        SwiftExample(title: "Animation", storyboard: "views", identifier: "AnimationViewController")
     ]),
     ExampleSection(title: "Pickers", examples: [
         SwiftExample(title: "Picker", storyboard: "pickers", identifier: "PickerViewController"),
