@@ -42,7 +42,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-277" y="160"/>
+            <point key="canvasLocation" x="-393" y="856"/>
         </scene>
         <!--Image-->
         <scene sceneID="43z-m5-w8m">
@@ -207,7 +207,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ujV-j5-8ob" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1795.6521739130437" y="196.875"/>
+            <point key="canvasLocation" x="1859" y="844"/>
         </scene>
         <!--Button-->
         <scene sceneID="iOt-ah-6So">
@@ -537,8 +537,200 @@
             </objects>
             <point key="canvasLocation" x="4039" y="171"/>
         </scene>
+        <!--Switch-->
+        <scene sceneID="m8b-0r-lQb">
+            <objects>
+                <viewController storyboardIdentifier="SpinnerViewController" title="Switch" id="U5e-eZ-iGU" customClass="SpinnerViewController" customModule="UIKit_Examples" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="25s-u7-h5G">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="gBy-LS-PtQ">
+                                <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
+                                <color key="color" systemColor="systemBlueColor"/>
+                            </activityIndicatorView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kOK-Hf-vX9">
+                                <rect key="frame" x="107" y="219.5" width="200" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="9p8-Gx-Lu1"/>
+                                    <constraint firstAttribute="height" constant="40" id="hmX-NC-jtb"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Run">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="run:" destination="U5e-eZ-iGU" eventType="touchUpInside" id="MJf-XH-Uo3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hS9-Qc-lNY">
+                                <rect key="frame" x="107" y="289.5" width="200" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="2Fp-YZ-uI1"/>
+                                    <constraint firstAttribute="width" constant="200" id="onN-NV-fIf"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Stop">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="stop:" destination="U5e-eZ-iGU" eventType="touchUpInside" id="JRs-VG-0OY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fwT-SJ-3HZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kOK-Hf-vX9" firstAttribute="centerX" secondItem="25s-u7-h5G" secondAttribute="centerX" id="AyG-2q-UPy"/>
+                            <constraint firstItem="gBy-LS-PtQ" firstAttribute="top" secondItem="hS9-Qc-lNY" secondAttribute="bottom" constant="100" id="Hp5-pY-qxb"/>
+                            <constraint firstItem="hS9-Qc-lNY" firstAttribute="top" secondItem="kOK-Hf-vX9" secondAttribute="bottom" constant="30" id="ILr-5f-uAD"/>
+                            <constraint firstItem="gBy-LS-PtQ" firstAttribute="centerX" secondItem="25s-u7-h5G" secondAttribute="centerX" id="WwF-og-Fm2"/>
+                            <constraint firstItem="hS9-Qc-lNY" firstAttribute="centerX" secondItem="25s-u7-h5G" secondAttribute="centerX" id="lYe-2Y-Sl1"/>
+                            <constraint firstItem="gBy-LS-PtQ" firstAttribute="centerY" secondItem="25s-u7-h5G" secondAttribute="centerY" id="x6z-Qo-Gfq"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Switch" image="hand.point.right.fill" catalog="system" id="BT2-Hs-DCX"/>
+                    <connections>
+                        <outlet property="buttonRun" destination="kOK-Hf-vX9" id="AbV-7V-8fV"/>
+                        <outlet property="buttonStop" destination="hS9-Qc-lNY" id="EPN-ia-f93"/>
+                        <outlet property="spinner" destination="gBy-LS-PtQ" id="x0Y-SQ-gdk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qTM-dY-eqD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-394" y="171"/>
+        </scene>
+        <!--Progress Bar-->
+        <scene sceneID="QAw-sH-IGJ">
+            <objects>
+                <viewController storyboardIdentifier="ProgressBarViewController" title="Progress Bar" id="lSZ-xa-iIV" customClass="ProgressBarViewController" customModule="UIKit_Examples" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xkZ-UH-xkm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="kbX-3f-Vbf">
+                                <rect key="frame" x="30" y="362" width="354" height="4"/>
+                            </progressView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="UFT-kA-hGN">
+                                <rect key="frame" x="30" y="446" width="354" height="4"/>
+                                <color key="progressTintColor" systemColor="systemGreenColor"/>
+                                <color key="trackTintColor" systemColor="systemYellowColor"/>
+                            </progressView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mQ7-0t-jCv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="UFT-kA-hGN" firstAttribute="leading" secondItem="mQ7-0t-jCv" secondAttribute="leading" constant="30" id="1a2-Yj-1xj"/>
+                            <constraint firstItem="UFT-kA-hGN" firstAttribute="top" secondItem="kbX-3f-Vbf" secondAttribute="bottom" constant="80" id="3vk-hW-lVK"/>
+                            <constraint firstItem="UFT-kA-hGN" firstAttribute="centerY" secondItem="xkZ-UH-xkm" secondAttribute="centerY" id="57t-oe-esb"/>
+                            <constraint firstItem="kbX-3f-Vbf" firstAttribute="leading" secondItem="mQ7-0t-jCv" secondAttribute="leading" constant="30" id="83w-7p-DiO"/>
+                            <constraint firstItem="mQ7-0t-jCv" firstAttribute="trailing" secondItem="kbX-3f-Vbf" secondAttribute="trailing" constant="30" id="elD-VH-Xh6"/>
+                            <constraint firstItem="mQ7-0t-jCv" firstAttribute="trailing" secondItem="UFT-kA-hGN" secondAttribute="trailing" constant="30" id="yYU-ej-WkJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="progressBar1" destination="kbX-3f-Vbf" id="FwR-a7-eOq"/>
+                        <outlet property="progressBar2" destination="UFT-kA-hGN" id="iTD-AM-iOJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Jm-7c-xiu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="338" y="856"/>
+        </scene>
+        <!--Stepper-->
+        <scene sceneID="fEB-12-eKr">
+            <objects>
+                <viewController storyboardIdentifier="StepperViewController" title="Stepper" id="kX8-00-OZQ" customClass="StepperViewController" customModule="UIKit_Examples" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bmC-RM-FGa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="BT0-il-Xoa">
+                                <rect key="frame" x="160" y="144" width="94" height="32"/>
+                                <connections>
+                                    <action selector="stepperValueChanged:" destination="kX8-00-OZQ" eventType="valueChanged" id="QsZ-2a-IEC"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jMz-kk-cCG">
+                                <rect key="frame" x="200.5" y="226" width="13" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4LL-9d-GWU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jMz-kk-cCG" firstAttribute="centerX" secondItem="bmC-RM-FGa" secondAttribute="centerX" id="Ede-xO-eff"/>
+                            <constraint firstItem="BT0-il-Xoa" firstAttribute="centerX" secondItem="bmC-RM-FGa" secondAttribute="centerX" id="QMy-VD-gQm"/>
+                            <constraint firstItem="jMz-kk-cCG" firstAttribute="top" secondItem="BT0-il-Xoa" secondAttribute="bottom" constant="50" id="jq8-OL-3OJ"/>
+                            <constraint firstItem="BT0-il-Xoa" firstAttribute="top" secondItem="4LL-9d-GWU" secondAttribute="top" constant="100" id="zeS-5V-A2I"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="stepper" destination="BT0-il-Xoa" id="gxh-Pb-3Yf"/>
+                        <outlet property="valueLabel" destination="jMz-kk-cCG" id="ylq-zl-nt4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1tR-79-7OD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1125" y="844"/>
+        </scene>
+        <!--Slider-->
+        <scene sceneID="mV6-X3-WKW">
+            <objects>
+                <viewController storyboardIdentifier="SliderViewController" title="Slider" id="JHF-Sr-NfD" customClass="SliderViewController" customModule="UIKit_Examples" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZJF-aO-l7o">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10" minValue="10" maxValue="50" translatesAutoresizingMaskIntoConstraints="NO" id="zwx-Uj-7XO">
+                                <rect key="frame" x="48" y="144" width="318" height="31"/>
+                                <connections>
+                                    <action selector="slider1ValueChanged:" destination="JHF-Sr-NfD" eventType="valueChanged" id="Eyj-sU-iu3"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="10" maxValue="50" minimumValueImage="10.circle" catalog="system" maximumValueImage="50.circle" translatesAutoresizingMaskIntoConstraints="NO" id="9qV-u6-fpu">
+                                <rect key="frame" x="48" y="224" width="318" height="31"/>
+                                <connections>
+                                    <action selector="slider2ValueChanged:" destination="JHF-Sr-NfD" eventType="valueChanged" id="Fco-A4-eYe"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cui-Sz-k7v">
+                                <rect key="frame" x="200.5" y="304" width="13" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="96G-60-X4w"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cui-Sz-k7v" firstAttribute="centerX" secondItem="ZJF-aO-l7o" secondAttribute="centerX" id="3Ta-dr-Agi"/>
+                            <constraint firstItem="96G-60-X4w" firstAttribute="trailing" secondItem="zwx-Uj-7XO" secondAttribute="trailing" constant="50" id="ERa-fY-fgb"/>
+                            <constraint firstItem="9qV-u6-fpu" firstAttribute="leading" secondItem="96G-60-X4w" secondAttribute="leading" constant="50" id="Etr-U2-39G"/>
+                            <constraint firstItem="96G-60-X4w" firstAttribute="trailing" secondItem="9qV-u6-fpu" secondAttribute="trailing" constant="50" id="I5W-KB-9XT"/>
+                            <constraint firstItem="zwx-Uj-7XO" firstAttribute="top" secondItem="96G-60-X4w" secondAttribute="top" constant="100" id="fDg-LG-3TW"/>
+                            <constraint firstItem="zwx-Uj-7XO" firstAttribute="leading" secondItem="96G-60-X4w" secondAttribute="leading" constant="50" id="gUg-YC-pOI"/>
+                            <constraint firstItem="cui-Sz-k7v" firstAttribute="top" secondItem="9qV-u6-fpu" secondAttribute="bottom" constant="50" id="i54-li-ot9"/>
+                            <constraint firstItem="9qV-u6-fpu" firstAttribute="top" secondItem="zwx-Uj-7XO" secondAttribute="bottom" constant="50" id="nbe-fa-pGE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="slider1" destination="zwx-Uj-7XO" id="ug5-NS-cYY"/>
+                        <outlet property="slider2" destination="9qV-u6-fpu" id="crw-HS-EIM"/>
+                        <outlet property="valueLabel" destination="cui-Sz-k7v" id="nP1-HA-LCp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xor-S8-kkB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1812" y="167"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="10.circle" catalog="system" width="128" height="121"/>
+        <image name="50.circle" catalog="system" width="128" height="121"/>
+        <image name="hand.point.right.fill" catalog="system" width="128" height="99"/>
         <image name="scissors" catalog="system" width="128" height="92"/>
         <image name="square.fill" catalog="system" width="128" height="114"/>
         <image name="star.fill" catalog="system" width="128" height="116"/>
