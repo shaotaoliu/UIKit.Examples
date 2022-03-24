@@ -10,15 +10,22 @@ class ContainerViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationItem.titleView = segment
         segment.selectedSegmentIndex = 0
         segment.addTarget(self, action: #selector(segmentChanged), for: .valueChanged)
+        navigationItem.titleView = segment
+
+        firstVC.view.frame = container.bounds
+        secondVC.view.frame = container.bounds
+        
+        addChild(firstVC)
+        addChild(secondVC)
         
         container.addSubview(firstVC.view)
         container.addSubview(secondVC.view)
 
-        firstVC.view.frame = container.bounds
-        secondVC.view.frame = container.bounds
+        firstVC.didMove(toParent: self)
+        secondVC.didMove(toParent: self)
+        
         secondVC.view.isHidden = true
     }
     

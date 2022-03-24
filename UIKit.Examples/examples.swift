@@ -22,7 +22,9 @@ let examples: [ExampleSection] = [
         SwiftExample(title: "Toolbar", storyboard: "views", identifier: "ToobarViewController"),
         SwiftExample(title: "Page Control", storyboard: "views", identifier: "PageControlViewController"),
         SwiftExample(title: "Table View", storyboard: "views", identifier: "TableViewController"),
-        SwiftExample(title: "Animation", storyboard: "views", identifier: "AnimationViewController")
+        SwiftExample(title: "Animation", storyboard: "views", identifier: "AnimationViewController"),
+        SwiftExample(title: "Page View", storyboard: "views", identifier: "PageExampleViewController"),
+        SwiftExample(title: "Scroll View", storyboard: "views", identifier: "ScrollExampleViewController")
     ]),
     ExampleSection(title: "Pickers", examples: [
         SwiftExample(title: "Picker", storyboard: "pickers", identifier: "PickerViewController"),
@@ -33,7 +35,9 @@ let examples: [ExampleSection] = [
     ]),
     ExampleSection(title: "Others", examples: [
         SwiftExample(title: "Gesture", storyboard: "others", identifier: "GestureViewController"),
-        SwiftExample(title: "Container", storyboard: "others", identifier: "ContainerViewController")
+        SwiftExample(title: "Container", storyboard: "others", identifier: "ContainerViewController"),
+        SwiftExample(title: "Keyboard", storyboard: "others", identifier: "KeyboardViewController"),
+        SwiftExample(title: "Constraints", storyboard: "others", identifier: "ConstraintsViewController")
     ])
 ]
 

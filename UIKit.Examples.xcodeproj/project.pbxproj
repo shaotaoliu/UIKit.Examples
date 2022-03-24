@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A040DCA27ECE53300B9AC87 /* ConstraintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A040DC927ECE53300B9AC87 /* ConstraintsViewController.swift */; };
 		4A30686327CF448200BC9678 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A30686227CF448200BC9678 /* TableViewController.swift */; };
 		4A30686527CF44B000BC9678 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A30686427CF44B000BC9678 /* TableViewModel.swift */; };
 		4A31AD9927DD7CB10061A571 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A31AD9827DD7CB10061A571 /* FirstViewController.swift */; };
@@ -46,9 +47,12 @@
 		4A72F5A227A37F4700C77184 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72F5A127A37F4700C77184 /* DatePickerViewController.swift */; };
 		4A72F5A427A3831700C77184 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72F5A327A3831700C77184 /* ColorPickerViewController.swift */; };
 		4A72F5A627A3832700C77184 /* FontPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72F5A527A3832700C77184 /* FontPickerViewController.swift */; };
+		4A7E1C1327E7CD5700DEA1C3 /* PageExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E1C1227E7CD5700DEA1C3 /* PageExampleViewController.swift */; };
+		4A7E1C1D27E820E900DEA1C3 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E1C1C27E820E900DEA1C3 /* KeyboardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A040DC927ECE53300B9AC87 /* ConstraintsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintsViewController.swift; sourceTree = "<group>"; };
 		4A30686227CF448200BC9678 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		4A30686427CF44B000BC9678 /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
 		4A31AD9827DD7CB10061A571 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 		4A72F5A127A37F4700C77184 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
 		4A72F5A327A3831700C77184 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
 		4A72F5A527A3832700C77184 /* FontPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontPickerViewController.swift; sourceTree = "<group>"; };
+		4A7E1C1227E7CD5700DEA1C3 /* PageExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageExampleViewController.swift; sourceTree = "<group>"; };
+		4A7E1C1C27E820E900DEA1C3 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +201,8 @@
 				4A4A4D6E27DC9555008ACF87 /* ContainerViewController.swift */,
 				4A72F59027A32EDF00C77184 /* WebSocketViewController.swift */,
 				4A4A4D6C27DC8E44008ACF87 /* GestureViewController.swift */,
+				4A7E1C1C27E820E900DEA1C3 /* KeyboardViewController.swift */,
+				4A040DC927ECE53300B9AC87 /* ConstraintsViewController.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -210,6 +218,7 @@
 				4A5D9A9427A4BB07004C7C2C /* PageControlViewController.swift */,
 				4A30686227CF448200BC9678 /* TableViewController.swift */,
 				4A4A4D6A27DC2C27008ACF87 /* AnimationViewController.swift */,
+				4A7E1C1227E7CD5700DEA1C3 /* PageExampleViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -304,11 +313,14 @@
 				4A72F5A227A37F4700C77184 /* DatePickerViewController.swift in Sources */,
 				4A5D9A8D27A4B53F004C7C2C /* ToobarViewController.swift in Sources */,
 				4A72F58927A290BF00C77184 /* SwitchViewController.swift in Sources */,
+				4A7E1C1D27E820E900DEA1C3 /* KeyboardViewController.swift in Sources */,
 				4A72F59A27A3448700C77184 /* SpinnerViewController.swift in Sources */,
+				4A7E1C1327E7CD5700DEA1C3 /* PageExampleViewController.swift in Sources */,
 				4A31AD9B27DD7CC00061A571 /* SecondViewController.swift in Sources */,
 				4A30686327CF448200BC9678 /* TableViewController.swift in Sources */,
 				4A5D9A9527A4BB07004C7C2C /* PageControlViewController.swift in Sources */,
 				4A72F59627A3325100C77184 /* CollectionViewController.swift in Sources */,
+				4A040DCA27ECE53300B9AC87 /* ConstraintsViewController.swift in Sources */,
 				4A5D9A8327A460ED004C7C2C /* SearchBarViewController.swift in Sources */,
 				4A5D9A8727A48338004C7C2C /* ProgressBarViewController.swift in Sources */,
 				4A5D9A9127A4B94B004C7C2C /* TextFieldViewController.swift in Sources */,
