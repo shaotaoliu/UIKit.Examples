@@ -12,6 +12,7 @@
 		4A30686527CF44B000BC9678 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A30686427CF44B000BC9678 /* TableViewModel.swift */; };
 		4A31AD9927DD7CB10061A571 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A31AD9827DD7CB10061A571 /* FirstViewController.swift */; };
 		4A31AD9B27DD7CC00061A571 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A31AD9A27DD7CC00061A571 /* SecondViewController.swift */; };
+		4A3B14B527EEDF9C0018C2D7 /* Keyboard2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B14B427EEDF9C0018C2D7 /* Keyboard2ViewController.swift */; };
 		4A4A4D6B27DC2C27008ACF87 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4A4D6A27DC2C27008ACF87 /* AnimationViewController.swift */; };
 		4A4A4D6D27DC8E44008ACF87 /* GestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4A4D6C27DC8E44008ACF87 /* GestureViewController.swift */; };
 		4A4A4D6F27DC9555008ACF87 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4A4D6E27DC9555008ACF87 /* ContainerViewController.swift */; };
@@ -57,6 +58,7 @@
 		4A30686427CF44B000BC9678 /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
 		4A31AD9827DD7CB10061A571 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		4A31AD9A27DD7CC00061A571 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4A3B14B427EEDF9C0018C2D7 /* Keyboard2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard2ViewController.swift; sourceTree = "<group>"; };
 		4A4A4D6A27DC2C27008ACF87 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		4A4A4D6C27DC8E44008ACF87 /* GestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureViewController.swift; sourceTree = "<group>"; };
 		4A4A4D6E27DC9555008ACF87 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 				4A72F59027A32EDF00C77184 /* WebSocketViewController.swift */,
 				4A4A4D6C27DC8E44008ACF87 /* GestureViewController.swift */,
 				4A7E1C1C27E820E900DEA1C3 /* KeyboardViewController.swift */,
+				4A3B14B427EEDF9C0018C2D7 /* Keyboard2ViewController.swift */,
 				4A040DC927ECE53300B9AC87 /* ConstraintsViewController.swift */,
 			);
 			path = Others;
@@ -332,6 +335,7 @@
 				4A30686527CF44B000BC9678 /* TableViewModel.swift in Sources */,
 				4A31AD9927DD7CB10061A571 /* FirstViewController.swift in Sources */,
 				4A72F57727A2908600C77184 /* SceneDelegate.swift in Sources */,
+				4A3B14B527EEDF9C0018C2D7 /* Keyboard2ViewController.swift in Sources */,
 				4A5D9A9327A4B95A004C7C2C /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

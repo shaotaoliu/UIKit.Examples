@@ -37,6 +37,7 @@ let examples: [ExampleSection] = [
         SwiftExample(title: "Gesture", storyboard: "others", identifier: "GestureViewController"),
         SwiftExample(title: "Container", storyboard: "others", identifier: "ContainerViewController"),
         SwiftExample(title: "Keyboard", storyboard: "others", identifier: "KeyboardViewController"),
+        SwiftExample(title: "Keyboard 2", storyboard: "others", identifier: "Keyboard2ViewController"),
         SwiftExample(title: "Constraints", storyboard: "others", identifier: "ConstraintsViewController")
     ])
 ]
