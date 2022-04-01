@@ -4,7 +4,7 @@ class CollectionViewController: UIViewController {
 
     @IBOutlet weak var collection: UICollectionView!
     @IBOutlet weak var barItem: UITabBarItem!
-    let images: [String] = (1...6).map { "img\($0)" }
+    let images: [String] = (1...10).map { "image\($0)" }
     
     override func viewDidLoad() {
         super.viewDidLoad()

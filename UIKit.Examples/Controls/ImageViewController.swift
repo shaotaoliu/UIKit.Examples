@@ -7,8 +7,8 @@ class ImageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        imageView.animationImages = (1...count).map { UIImage(named: "img\($0)")! }
+        
+        imageView.animationImages = (1...count).map { UIImage(named: "image\($0)")! }
         imageView.contentMode = .scaleAspectFit
         imageView.animationDuration = Double(count)
         imageView.startAnimating()

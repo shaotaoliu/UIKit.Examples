@@ -16,6 +16,7 @@ let examples: [ExampleSection] = [
     ]),
     ExampleSection(title: "Views", examples: [
         SwiftExample(title: "Collection", storyboard: "views", identifier: "CollectionViewController"),
+        SwiftExample(title: "Collection2", storyboard: "views", identifier: "Collection2ViewController"),
         SwiftExample(title: "Tab Bar", storyboard: "views", identifier: "TabBarController"),
         SwiftExample(title: "Alert", storyboard: "views", identifier: "AlertViewController"),
         SwiftExample(title: "Stack View", storyboard: "views", identifier: "StackViewController"),

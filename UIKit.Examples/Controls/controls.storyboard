@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -22,17 +22,22 @@
                                     <action selector="didSwitchChange:" destination="Y6W-OH-hqX" eventType="valueChanged" id="5ap-j6-MPH"/>
                                 </connections>
                             </switch>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hBc-ik-0Rh">
-                                <rect key="frame" x="87" y="239" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hBc-ik-0Rh">
+                                <rect key="frame" x="50" y="232.5" width="314" height="150"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="ORu-iD-eNx"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="L7g-Kn-ecL" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="0SE-Ya-5BO"/>
-                            <constraint firstItem="L7g-Kn-ecL" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="jXr-qB-oNG"/>
+                            <constraint firstItem="L7g-Kn-ecL" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="Azn-Eg-AvM"/>
+                            <constraint firstItem="hBc-ik-0Rh" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="50" id="H8X-ax-x8U"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="hBc-ik-0Rh" secondAttribute="trailing" constant="50" id="QlO-bz-8A1"/>
+                            <constraint firstItem="L7g-Kn-ecL" firstAttribute="top" secondItem="hBc-ik-0Rh" secondAttribute="bottom" constant="50" id="eNx-d3-QOD"/>
+                            <constraint firstItem="L7g-Kn-ecL" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="xxf-R2-6S8"/>
                         </constraints>
                     </view>
                     <connections>

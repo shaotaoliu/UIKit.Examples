@@ -50,6 +50,9 @@
 		4A72F5A627A3832700C77184 /* FontPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72F5A527A3832700C77184 /* FontPickerViewController.swift */; };
 		4A7E1C1327E7CD5700DEA1C3 /* PageExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E1C1227E7CD5700DEA1C3 /* PageExampleViewController.swift */; };
 		4A7E1C1D27E820E900DEA1C3 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E1C1C27E820E900DEA1C3 /* KeyboardViewController.swift */; };
+		4A9F7C7327F676D8005D800B /* Collection2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9F7C7227F676D8005D800B /* Collection2ViewController.swift */; };
+		4A9F7C7527F67710005D800B /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9F7C7427F67710005D800B /* Global.swift */; };
+		4A9F7C7927F67E71005D800B /* Collection2ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9F7C7827F67E71005D800B /* Collection2ViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +101,9 @@
 		4A72F5A527A3832700C77184 /* FontPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontPickerViewController.swift; sourceTree = "<group>"; };
 		4A7E1C1227E7CD5700DEA1C3 /* PageExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageExampleViewController.swift; sourceTree = "<group>"; };
 		4A7E1C1C27E820E900DEA1C3 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		4A9F7C7227F676D8005D800B /* Collection2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection2ViewController.swift; sourceTree = "<group>"; };
+		4A9F7C7427F67710005D800B /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		4A9F7C7827F67E71005D800B /* Collection2ViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection2ViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,7 @@
 			children = (
 				4A31AD9827DD7CB10061A571 /* FirstViewController.swift */,
 				4A31AD9A27DD7CC00061A571 /* SecondViewController.swift */,
+				4A9F7C7427F67710005D800B /* Global.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -216,6 +223,8 @@
 				4A4A4D6927DC2BED008ACF87 /* ViewModels */,
 				4A72F59327A3323200C77184 /* views.storyboard */,
 				4A72F59527A3325100C77184 /* CollectionViewController.swift */,
+				4A9F7C7227F676D8005D800B /* Collection2ViewController.swift */,
+				4A9F7C7827F67E71005D800B /* Collection2ViewCell.swift */,
 				4A5D9A8027A460DF004C7C2C /* AlertViewController.swift */,
 				4A5D9A8C27A4B53E004C7C2C /* ToobarViewController.swift */,
 				4A5D9A9427A4BB07004C7C2C /* PageControlViewController.swift */,
@@ -302,9 +311,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A5D9A8527A47215004C7C2C /* SegmentControlViewController.swift in Sources */,
+				4A9F7C7927F67E71005D800B /* Collection2ViewCell.swift in Sources */,
 				4A5D9A8F27A4B93E004C7C2C /* ButtonViewController.swift in Sources */,
 				4A72F5A027A367C500C77184 /* PickerViewController.swift in Sources */,
 				4A4A4D6D27DC8E44008ACF87 /* GestureViewController.swift in Sources */,
+				4A9F7C7527F67710005D800B /* Global.swift in Sources */,
 				4A5D9A8127A460DF004C7C2C /* AlertViewController.swift in Sources */,
 				4A72F57927A2908600C77184 /* ViewController.swift in Sources */,
 				4A72F5A427A3831700C77184 /* ColorPickerViewController.swift in Sources */,
@@ -321,6 +332,7 @@
 				4A7E1C1327E7CD5700DEA1C3 /* PageExampleViewController.swift in Sources */,
 				4A31AD9B27DD7CC00061A571 /* SecondViewController.swift in Sources */,
 				4A30686327CF448200BC9678 /* TableViewController.swift in Sources */,
+				4A9F7C7327F676D8005D800B /* Collection2ViewController.swift in Sources */,
 				4A5D9A9527A4BB07004C7C2C /* PageControlViewController.swift in Sources */,
 				4A72F59627A3325100C77184 /* CollectionViewController.swift in Sources */,
 				4A040DCA27ECE53300B9AC87 /* ConstraintsViewController.swift in Sources */,

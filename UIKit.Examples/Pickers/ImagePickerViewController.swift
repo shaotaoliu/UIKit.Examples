@@ -11,6 +11,11 @@ class ImagePickerViewController: UIViewController, UIImagePickerControllerDelega
         
         picker = UIImagePickerController()
         picker.delegate = self
+        
+        imageView.contentMode = .scaleToFill
+        imageView.layer.masksToBounds = true
+        imageView.layer.cornerRadius = 20
+
     }
     
     @IBAction func chooseButtonClicked(_ sender: Any) {
