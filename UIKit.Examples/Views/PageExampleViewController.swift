@@ -12,6 +12,10 @@ class PageExampleViewController: UIPageViewController {
         pageControl.currentPageIndicatorTintColor = .systemGreen
         
         dataSource = self
+        
+        // change transition style
+        // transitionStyle = .pageCurl
+        
         populateControllers()
         
         if let firstVC = controllers.first {

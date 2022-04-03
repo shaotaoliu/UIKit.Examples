@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		4A040DCA27ECE53300B9AC87 /* ConstraintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A040DC927ECE53300B9AC87 /* ConstraintsViewController.swift */; };
+		4A1E23FF27F8E852004BD46F /* BlurViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1E23FE27F8E852004BD46F /* BlurViewController.swift */; };
 		4A30686327CF448200BC9678 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A30686227CF448200BC9678 /* TableViewController.swift */; };
 		4A30686527CF44B000BC9678 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A30686427CF44B000BC9678 /* TableViewModel.swift */; };
 		4A31AD9927DD7CB10061A571 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A31AD9827DD7CB10061A571 /* FirstViewController.swift */; };
 		4A31AD9B27DD7CC00061A571 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A31AD9A27DD7CC00061A571 /* SecondViewController.swift */; };
 		4A3B14B527EEDF9C0018C2D7 /* Keyboard2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3B14B427EEDF9C0018C2D7 /* Keyboard2ViewController.swift */; };
+		4A46582427FA4E3E009FA82E /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A46582327FA4E3E009FA82E /* NotificationViewController.swift */; };
 		4A4A4D6B27DC2C27008ACF87 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4A4D6A27DC2C27008ACF87 /* AnimationViewController.swift */; };
 		4A4A4D6D27DC8E44008ACF87 /* GestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4A4D6C27DC8E44008ACF87 /* GestureViewController.swift */; };
 		4A4A4D6F27DC9555008ACF87 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4A4D6E27DC9555008ACF87 /* ContainerViewController.swift */; };
@@ -57,11 +59,13 @@
 
 /* Begin PBXFileReference section */
 		4A040DC927ECE53300B9AC87 /* ConstraintsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintsViewController.swift; sourceTree = "<group>"; };
+		4A1E23FE27F8E852004BD46F /* BlurViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurViewController.swift; sourceTree = "<group>"; };
 		4A30686227CF448200BC9678 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		4A30686427CF44B000BC9678 /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
 		4A31AD9827DD7CB10061A571 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		4A31AD9A27DD7CC00061A571 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		4A3B14B427EEDF9C0018C2D7 /* Keyboard2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard2ViewController.swift; sourceTree = "<group>"; };
+		4A46582327FA4E3E009FA82E /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		4A4A4D6A27DC2C27008ACF87 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		4A4A4D6C27DC8E44008ACF87 /* GestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureViewController.swift; sourceTree = "<group>"; };
 		4A4A4D6E27DC9555008ACF87 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
@@ -127,12 +131,13 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
-		4A4A4D6927DC2BED008ACF87 /* ViewModels */ = {
+		4A4A4D6927DC2BED008ACF87 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				4A9F7C7827F67E71005D800B /* Collection2ViewCell.swift */,
 				4A30686427CF44B000BC9678 /* TableViewModel.swift */,
 			);
-			path = ViewModels;
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		4A5D9A7D27A3E5FB004C7C2C /* Pickers */ = {
@@ -213,6 +218,8 @@
 				4A7E1C1C27E820E900DEA1C3 /* KeyboardViewController.swift */,
 				4A3B14B427EEDF9C0018C2D7 /* Keyboard2ViewController.swift */,
 				4A040DC927ECE53300B9AC87 /* ConstraintsViewController.swift */,
+				4A1E23FE27F8E852004BD46F /* BlurViewController.swift */,
+				4A46582327FA4E3E009FA82E /* NotificationViewController.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -220,11 +227,10 @@
 		4A72F59227A3321900C77184 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4A4A4D6927DC2BED008ACF87 /* ViewModels */,
+				4A4A4D6927DC2BED008ACF87 /* Helpers */,
 				4A72F59327A3323200C77184 /* views.storyboard */,
 				4A72F59527A3325100C77184 /* CollectionViewController.swift */,
 				4A9F7C7227F676D8005D800B /* Collection2ViewController.swift */,
-				4A9F7C7827F67E71005D800B /* Collection2ViewCell.swift */,
 				4A5D9A8027A460DF004C7C2C /* AlertViewController.swift */,
 				4A5D9A8C27A4B53E004C7C2C /* ToobarViewController.swift */,
 				4A5D9A9427A4BB07004C7C2C /* PageControlViewController.swift */,
@@ -333,6 +339,7 @@
 				4A31AD9B27DD7CC00061A571 /* SecondViewController.swift in Sources */,
 				4A30686327CF448200BC9678 /* TableViewController.swift in Sources */,
 				4A9F7C7327F676D8005D800B /* Collection2ViewController.swift in Sources */,
+				4A1E23FF27F8E852004BD46F /* BlurViewController.swift in Sources */,
 				4A5D9A9527A4BB07004C7C2C /* PageControlViewController.swift in Sources */,
 				4A72F59627A3325100C77184 /* CollectionViewController.swift in Sources */,
 				4A040DCA27ECE53300B9AC87 /* ConstraintsViewController.swift in Sources */,
@@ -344,6 +351,7 @@
 				4A5D9A9727A4F9C4004C7C2C /* ImagePickerViewController.swift in Sources */,
 				4A4A4D6B27DC2C27008ACF87 /* AnimationViewController.swift in Sources */,
 				4A72F58E27A32B9800C77184 /* examples.swift in Sources */,
+				4A46582427FA4E3E009FA82E /* NotificationViewController.swift in Sources */,
 				4A30686527CF44B000BC9678 /* TableViewModel.swift in Sources */,
 				4A31AD9927DD7CB10061A571 /* FirstViewController.swift in Sources */,
 				4A72F57727A2908600C77184 /* SceneDelegate.swift in Sources */,
