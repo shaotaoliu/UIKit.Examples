@@ -41,7 +41,8 @@ let examples: [ExampleSection] = [
         SwiftExample(title: "Keyboard 2", storyboard: "others", identifier: "Keyboard2ViewController"),
         SwiftExample(title: "Constraints", storyboard: "others", identifier: "ConstraintsViewController"),
         SwiftExample(title: "Blur Effect", storyboard: "others", identifier: "BlurViewController"),
-        SwiftExample(title: "Notification", storyboard: "others", identifier: "NotificationViewController")
+        SwiftExample(title: "Notification", storyboard: "others", identifier: "NotificationViewController"),
+        SwiftExample(title: "Tuple", storyboard: "others", identifier: "TupleTableViewController")
     ])
 ]
 

@@ -55,6 +55,7 @@
 		4A9F7C7327F676D8005D800B /* Collection2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9F7C7227F676D8005D800B /* Collection2ViewController.swift */; };
 		4A9F7C7527F67710005D800B /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9F7C7427F67710005D800B /* Global.swift */; };
 		4A9F7C7927F67E71005D800B /* Collection2ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9F7C7827F67E71005D800B /* Collection2ViewCell.swift */; };
+		4AB51EB027FA7E1C0031B1E1 /* TupleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB51EAF27FA7E1C0031B1E1 /* TupleTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,6 +109,7 @@
 		4A9F7C7227F676D8005D800B /* Collection2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection2ViewController.swift; sourceTree = "<group>"; };
 		4A9F7C7427F67710005D800B /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		4A9F7C7827F67E71005D800B /* Collection2ViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection2ViewCell.swift; sourceTree = "<group>"; };
+		4AB51EAF27FA7E1C0031B1E1 /* TupleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TupleTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +222,7 @@
 				4A040DC927ECE53300B9AC87 /* ConstraintsViewController.swift */,
 				4A1E23FE27F8E852004BD46F /* BlurViewController.swift */,
 				4A46582327FA4E3E009FA82E /* NotificationViewController.swift */,
+				4AB51EAF27FA7E1C0031B1E1 /* TupleTableViewController.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 				4A5D9A8327A460ED004C7C2C /* SearchBarViewController.swift in Sources */,
 				4A5D9A8727A48338004C7C2C /* ProgressBarViewController.swift in Sources */,
 				4A5D9A9127A4B94B004C7C2C /* TextFieldViewController.swift in Sources */,
+				4AB51EB027FA7E1C0031B1E1 /* TupleTableViewController.swift in Sources */,
 				4A4A4D6F27DC9555008ACF87 /* ContainerViewController.swift in Sources */,
 				4A72F5A627A3832700C77184 /* FontPickerViewController.swift in Sources */,
 				4A5D9A9727A4F9C4004C7C2C /* ImagePickerViewController.swift in Sources */,
