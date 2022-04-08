@@ -12,7 +12,9 @@ let examples: [ExampleSection] = [
         SwiftExample(title: "Spinner", storyboard: "controls", identifier: "SpinnerViewController"),
         SwiftExample(title: "Progress Bar", storyboard: "controls", identifier: "ProgressBarViewController"),
         SwiftExample(title: "Stepper", storyboard: "controls", identifier: "StepperViewController"),
-        SwiftExample(title: "Slider", storyboard: "controls", identifier: "SliderViewController")
+        SwiftExample(title: "Slider", storyboard: "controls", identifier: "SliderViewController"),
+        SwiftExample(title: "MapView", storyboard: "controls", identifier: "MapViewController"),
+        SwiftExample(title: "WebView", storyboard: "controls", identifier: "WebViewController")
     ]),
     ExampleSection(title: "Views", examples: [
         SwiftExample(title: "Collection", storyboard: "views", identifier: "CollectionViewController"),
@@ -42,7 +44,8 @@ let examples: [ExampleSection] = [
         SwiftExample(title: "Constraints", storyboard: "others", identifier: "ConstraintsViewController"),
         SwiftExample(title: "Blur Effect", storyboard: "others", identifier: "BlurViewController"),
         SwiftExample(title: "Notification", storyboard: "others", identifier: "NotificationViewController"),
-        SwiftExample(title: "Tuple", storyboard: "others", identifier: "TupleTableViewController")
+        SwiftExample(title: "Tuple", storyboard: "others", identifier: "TupleTableViewController"),
+        SwiftExample(title: "Music", storyboard: "others", identifier: "MusicViewController")
     ])
 ]
 

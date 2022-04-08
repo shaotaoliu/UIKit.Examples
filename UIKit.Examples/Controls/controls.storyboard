@@ -214,6 +214,133 @@
             </objects>
             <point key="canvasLocation" x="1859" y="844"/>
         </scene>
+        <!--Map View Controller-->
+        <scene sceneID="zTR-Uk-P2t">
+            <objects>
+                <viewController storyboardIdentifier="MapViewController" id="jIB-Nr-cQf" customClass="MapViewController" customModule="UIKit_Examples" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fIb-Ns-VLT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Vtu-sr-X79">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            </mapView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xlQ-1n-O3t"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="xlQ-1n-O3t" firstAttribute="bottom" secondItem="Vtu-sr-X79" secondAttribute="bottom" id="2Lm-7L-NON"/>
+                            <constraint firstItem="Vtu-sr-X79" firstAttribute="leading" secondItem="xlQ-1n-O3t" secondAttribute="leading" id="DFA-a4-qRJ"/>
+                            <constraint firstItem="Vtu-sr-X79" firstAttribute="top" secondItem="xlQ-1n-O3t" secondAttribute="top" id="Mcz-MG-WFO"/>
+                            <constraint firstItem="xlQ-1n-O3t" firstAttribute="trailing" secondItem="Vtu-sr-X79" secondAttribute="trailing" id="eka-8n-doM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="Vtu-sr-X79" id="eAG-Ry-F48"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RaG-B9-loq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2561" y="844"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="a1O-cZ-4xb">
+            <objects>
+                <viewController storyboardIdentifier="WebViewController" id="8hn-X9-XlV" customClass="WebViewController" customModule="UIKit_Examples" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="N1R-Ne-JDp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rur-9X-tpm">
+                                <rect key="frame" x="0.0" y="44" width="414" height="758"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZXW-9p-J4f">
+                                <rect key="frame" x="10" y="822" width="404" height="31"/>
+                                <subviews>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7Ja-qI-TOt">
+                                        <rect key="frame" x="0.0" y="0.0" width="62" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="qN6-Cr-Erk"/>
+                                        </constraints>
+                                    </switch>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oSh-iZ-AzM">
+                                        <rect key="frame" x="60" y="0.0" width="70" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="jPo-IU-gYe"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Home">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="goHome:" destination="8hn-X9-XlV" eventType="touchUpInside" id="3bu-7c-lse"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7x9-h1-h2F">
+                                        <rect key="frame" x="130" y="0.0" width="80" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="rOv-Jy-KMl"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Google">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="goGoogle:" destination="8hn-X9-XlV" eventType="touchUpInside" id="c6q-oY-V4N"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e1P-TW-XrM">
+                                        <rect key="frame" x="210" y="0.0" width="100" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="39s-ag-7kE"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="JavaScript">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="runJavaScript:" destination="8hn-X9-XlV" eventType="touchUpInside" id="8d3-uN-RFs"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dH6-5i-e4J">
+                                        <rect key="frame" x="310" y="0.0" width="94" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Safari">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="openSafari:" destination="8hn-X9-XlV" eventType="touchUpInside" id="9s4-Ck-32j"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xVi-jy-t3B"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ZXW-9p-J4f" firstAttribute="leading" secondItem="xVi-jy-t3B" secondAttribute="leading" constant="10" id="A4E-dq-dfK"/>
+                            <constraint firstItem="xVi-jy-t3B" firstAttribute="trailing" secondItem="Rur-9X-tpm" secondAttribute="trailing" id="ADe-xv-Sog"/>
+                            <constraint firstItem="ZXW-9p-J4f" firstAttribute="top" secondItem="Rur-9X-tpm" secondAttribute="bottom" constant="20" id="aiM-uO-XWg"/>
+                            <constraint firstItem="xVi-jy-t3B" firstAttribute="trailing" secondItem="ZXW-9p-J4f" secondAttribute="trailing" id="cH1-Yg-xDU"/>
+                            <constraint firstItem="Rur-9X-tpm" firstAttribute="leading" secondItem="xVi-jy-t3B" secondAttribute="leading" id="hrw-tF-5Al"/>
+                            <constraint firstItem="xVi-jy-t3B" firstAttribute="bottom" secondItem="Rur-9X-tpm" secondAttribute="bottom" constant="60" id="s8i-QF-tnR"/>
+                            <constraint firstItem="Rur-9X-tpm" firstAttribute="top" secondItem="xVi-jy-t3B" secondAttribute="top" id="x34-Ct-t9C"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="permissionOn" destination="7Ja-qI-TOt" id="T2e-FY-w7a"/>
+                        <outlet property="webView" destination="Rur-9X-tpm" id="rTc-xm-QT9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kJ9-fK-WRW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3267" y="844"/>
+        </scene>
         <!--Button-->
         <scene sceneID="iOt-ah-6So">
             <objects>
