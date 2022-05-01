@@ -1,0 +1,63 @@
+{
+  "identifier" : "A48D20A7",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "1F36F943",
+      "localizations" : [
+        {
+          "description" : "This is my favorite fruit",
+          "displayName" : "Fuji Apple",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.cicimaya.apple",
+      "referenceName" : "Apple",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "699.00",
+      "familyShareable" : false,
+      "internalID" : "0E55C429",
+      "localizations" : [
+        {
+          "description" : "I have an iPhone 13",
+          "displayName" : "iPhone 13 ",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.cicimaya.iphone",
+      "referenceName" : "iPhone",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "8.69",
+      "familyShareable" : false,
+      "internalID" : "5C3EFBC2",
+      "localizations" : [
+        {
+          "description" : "Yami! Yami! Yami!",
+          "displayName" : "Chocalate",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.cicimaya.candy",
+      "referenceName" : "Candy",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 2
+  }
+}

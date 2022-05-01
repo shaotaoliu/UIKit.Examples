@@ -15,6 +15,7 @@
 		4A03A0CB2800F1C1003CF301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A03A0CA2800F1C0003CF301 /* Assets.xcassets */; };
 		4A03A0CD2800F542003CF301 /* train.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 4A03A0CC2800F542003CF301 /* train.m4v */; };
 		4A040DCA27ECE53300B9AC87 /* ConstraintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A040DC927ECE53300B9AC87 /* ConstraintsViewController.swift */; };
+		4A1C752E2814916D00D7DFC0 /* TouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1C752D2814916D00D7DFC0 /* TouchViewController.swift */; };
 		4A1E23FF27F8E852004BD46F /* BlurViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1E23FE27F8E852004BD46F /* BlurViewController.swift */; };
 		4A30686327CF448200BC9678 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A30686227CF448200BC9678 /* TableViewController.swift */; };
 		4A30686527CF44B000BC9678 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A30686427CF44B000BC9678 /* TableViewModel.swift */; };
@@ -62,6 +63,7 @@
 		4A9F7C7527F67710005D800B /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9F7C7427F67710005D800B /* Global.swift */; };
 		4A9F7C7927F67E71005D800B /* Collection2ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9F7C7827F67E71005D800B /* Collection2ViewCell.swift */; };
 		4AB51EB027FA7E1C0031B1E1 /* TupleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB51EAF27FA7E1C0031B1E1 /* TupleTableViewController.swift */; };
+		4AB8F728280BA2BE00EF60BF /* StoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB8F727280BA2BE00EF60BF /* StoreTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +75,7 @@
 		4A03A0CA2800F1C0003CF301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A03A0CC2800F542003CF301 /* train.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = train.m4v; sourceTree = "<group>"; };
 		4A040DC927ECE53300B9AC87 /* ConstraintsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintsViewController.swift; sourceTree = "<group>"; };
+		4A1C752D2814916D00D7DFC0 /* TouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchViewController.swift; sourceTree = "<group>"; };
 		4A1E23FE27F8E852004BD46F /* BlurViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurViewController.swift; sourceTree = "<group>"; };
 		4A30686227CF448200BC9678 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		4A30686427CF44B000BC9678 /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
@@ -122,6 +125,8 @@
 		4A9F7C7427F67710005D800B /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		4A9F7C7827F67E71005D800B /* Collection2ViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection2ViewCell.swift; sourceTree = "<group>"; };
 		4AB51EAF27FA7E1C0031B1E1 /* TupleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TupleTableViewController.swift; sourceTree = "<group>"; };
+		4AB8F727280BA2BE00EF60BF /* StoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreTableViewController.swift; sourceTree = "<group>"; };
+		4AB8F729280BA57400EF60BF /* store-products.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = "store-products.storekit"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +149,7 @@
 				4A03A0C42800D25F003CF301 /* myHomePage.html */,
 				4A03A0CC2800F542003CF301 /* train.m4v */,
 				4A03A0C82800EE2E003CF301 /* music.mp3 */,
+				4AB8F729280BA57400EF60BF /* store-products.storekit */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -241,6 +247,7 @@
 				4A46582327FA4E3E009FA82E /* NotificationViewController.swift */,
 				4AB51EAF27FA7E1C0031B1E1 /* TupleTableViewController.swift */,
 				4A03A0C62800E8C6003CF301 /* MusicViewController.swift */,
+				4AB8F727280BA2BE00EF60BF /* StoreTableViewController.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -258,6 +265,7 @@
 				4A30686227CF448200BC9678 /* TableViewController.swift */,
 				4A4A4D6A27DC2C27008ACF87 /* AnimationViewController.swift */,
 				4A7E1C1227E7CD5700DEA1C3 /* PageExampleViewController.swift */,
+				4A1C752D2814916D00D7DFC0 /* TouchViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -347,6 +355,7 @@
 				4A4A4D6D27DC8E44008ACF87 /* GestureViewController.swift in Sources */,
 				4A9F7C7527F67710005D800B /* Global.swift in Sources */,
 				4A03A0C72800E8C6003CF301 /* MusicViewController.swift in Sources */,
+				4AB8F728280BA2BE00EF60BF /* StoreTableViewController.swift in Sources */,
 				4A5D9A8127A460DF004C7C2C /* AlertViewController.swift in Sources */,
 				4A72F57927A2908600C77184 /* ViewController.swift in Sources */,
 				4A72F5A427A3831700C77184 /* ColorPickerViewController.swift in Sources */,
@@ -358,6 +367,7 @@
 				4A72F59127A32EDF00C77184 /* WebSocketViewController.swift in Sources */,
 				4A72F5A227A37F4700C77184 /* DatePickerViewController.swift in Sources */,
 				4A5D9A8D27A4B53F004C7C2C /* ToobarViewController.swift in Sources */,
+				4A1C752E2814916D00D7DFC0 /* TouchViewController.swift in Sources */,
 				4A72F58927A290BF00C77184 /* SwitchViewController.swift in Sources */,
 				4A7E1C1D27E820E900DEA1C3 /* KeyboardViewController.swift in Sources */,
 				4A72F59A27A3448700C77184 /* SpinnerViewController.swift in Sources */,

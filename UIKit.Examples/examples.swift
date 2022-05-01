@@ -27,7 +27,8 @@ let examples: [ExampleSection] = [
         SwiftExample(title: "Table View", storyboard: "views", identifier: "TableViewController"),
         SwiftExample(title: "Animation", storyboard: "views", identifier: "AnimationViewController"),
         SwiftExample(title: "Page View", storyboard: "views", identifier: "PageExampleViewController"),
-        SwiftExample(title: "Scroll View", storyboard: "views", identifier: "ScrollExampleViewController")
+        SwiftExample(title: "Scroll View", storyboard: "views", identifier: "ScrollExampleViewController"),
+        SwiftExample(title: "Touch", storyboard: "views", identifier: "TouchViewController")
     ]),
     ExampleSection(title: "Pickers", examples: [
         SwiftExample(title: "Picker", storyboard: "pickers", identifier: "PickerViewController"),
@@ -45,7 +46,8 @@ let examples: [ExampleSection] = [
         SwiftExample(title: "Blur Effect", storyboard: "others", identifier: "BlurViewController"),
         SwiftExample(title: "Notification", storyboard: "others", identifier: "NotificationViewController"),
         SwiftExample(title: "Tuple", storyboard: "others", identifier: "TupleTableViewController"),
-        SwiftExample(title: "Music", storyboard: "others", identifier: "MusicViewController")
+        SwiftExample(title: "Music", storyboard: "others", identifier: "MusicViewController"),
+        SwiftExample(title: "StoreKit", storyboard: "others", identifier: "StoreTableViewController")
     ])
 ]
 

@@ -349,6 +349,38 @@
             </objects>
             <point key="canvasLocation" x="1248" y="911"/>
         </scene>
+        <!--Touch View Controller-->
+        <scene sceneID="O2B-xc-lEE">
+            <objects>
+                <viewController storyboardIdentifier="TouchViewController" id="DUx-9W-QIU" customClass="TouchViewController" customModule="UIKit_Examples" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ffp-u3-cai">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hwr-Cb-WVO">
+                                <rect key="frame" x="132" y="373" width="150" height="150"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="aOj-Na-faZ"/>
+                                    <constraint firstAttribute="height" constant="150" id="mWo-Ht-cb4"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xWh-GH-zK2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Hwr-Cb-WVO" firstAttribute="centerX" secondItem="Ffp-u3-cai" secondAttribute="centerX" id="0cs-Up-TEC"/>
+                            <constraint firstItem="Hwr-Cb-WVO" firstAttribute="centerY" secondItem="Ffp-u3-cai" secondAttribute="centerY" id="aF4-sn-4ev"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="square" destination="Hwr-Cb-WVO" id="Ab1-3K-l7H"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mmc-73-ANt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2052" y="905"/>
+        </scene>
         <!--Page Control View Controller-->
         <scene sceneID="Z7h-tJ-4Sg">
             <objects>
