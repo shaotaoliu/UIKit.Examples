@@ -17,8 +17,6 @@ let examples: [ExampleSection] = [
         SwiftExample(title: "WebView", storyboard: "controls", identifier: "WebViewController")
     ]),
     ExampleSection(title: "Views", examples: [
-        SwiftExample(title: "Collection", storyboard: "views", identifier: "CollectionViewController"),
-        SwiftExample(title: "Collection2", storyboard: "views", identifier: "Collection2ViewController"),
         SwiftExample(title: "Tab Bar", storyboard: "views", identifier: "TabBarController"),
         SwiftExample(title: "Alert", storyboard: "views", identifier: "AlertViewController"),
         SwiftExample(title: "Stack View", storyboard: "views", identifier: "StackViewController"),
@@ -26,6 +24,7 @@ let examples: [ExampleSection] = [
         SwiftExample(title: "Page Control", storyboard: "views", identifier: "PageControlViewController"),
         SwiftExample(title: "Table View", storyboard: "views", identifier: "TableViewController"),
         SwiftExample(title: "Animation", storyboard: "views", identifier: "AnimationViewController"),
+        SwiftExample(title: "Transform", storyboard: "views", identifier: "TransformViewController"),
         SwiftExample(title: "Page View", storyboard: "views", identifier: "PageExampleViewController"),
         SwiftExample(title: "Scroll View", storyboard: "views", identifier: "ScrollExampleViewController"),
         SwiftExample(title: "Touch", storyboard: "views", identifier: "TouchViewController")
@@ -43,11 +42,17 @@ let examples: [ExampleSection] = [
         SwiftExample(title: "Keyboard", storyboard: "others", identifier: "KeyboardViewController"),
         SwiftExample(title: "Keyboard 2", storyboard: "others", identifier: "Keyboard2ViewController"),
         SwiftExample(title: "Constraints", storyboard: "others", identifier: "ConstraintsViewController"),
+        SwiftExample(title: "Constraints 2", storyboard: "others", identifier: "Constraints2ViewController"),
         SwiftExample(title: "Blur Effect", storyboard: "others", identifier: "BlurViewController"),
         SwiftExample(title: "Notification", storyboard: "others", identifier: "NotificationViewController"),
         SwiftExample(title: "Tuple", storyboard: "others", identifier: "TupleTableViewController"),
         SwiftExample(title: "Music", storyboard: "others", identifier: "MusicViewController"),
-        SwiftExample(title: "StoreKit", storyboard: "others", identifier: "StoreTableViewController")
+        SwiftExample(title: "StoreKit", storyboard: "others", identifier: "StoreTableViewController"),
+        SwiftExample(title: "PDF View", storyboard: "others", identifier: "PDFViewController"),
+        SwiftExample(title: "UIActivityViewController", storyboard: "others", identifier: "ActivityViewController"),
+        SwiftExample(title: "Internet Connection", storyboard: "others", identifier: "InternetViewController"),
+        SwiftExample(title: "Gradient", storyboard: "others", identifier: "GradientViewController"),
+        SwiftExample(title: "Activity Ring", storyboard: "others", identifier: "RingViewController")
     ])
 ]
 

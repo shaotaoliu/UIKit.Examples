@@ -45,7 +45,9 @@ class StoreTableViewController: UITableViewController, SKProductsRequestDelegate
         tableView.deselectRow(at: indexPath, animated: false)
         
         // purchase
-        let payment = SKPayment(product: products[indexPath.row])
+        let product = products[indexPath.row]
+        let payment = SKPayment(product: product)
+        
         SKPaymentQueue.default().add(payment)
     }
 

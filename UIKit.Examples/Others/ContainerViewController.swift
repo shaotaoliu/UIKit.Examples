@@ -14,23 +14,42 @@ class ContainerViewController: UIViewController {
         segment.addTarget(self, action: #selector(segmentChanged), for: .valueChanged)
         navigationItem.titleView = segment
 
-        firstVC.view.frame = container.bounds
-        secondVC.view.frame = container.bounds
-        
-        addChild(firstVC)
-        addChild(secondVC)
-        
-        container.addSubview(firstVC.view)
-        container.addSubview(secondVC.view)
-
-        firstVC.didMove(toParent: self)
-        secondVC.didMove(toParent: self)
+        addChildController(firstVC)
+        addChildController(secondVC)
         
         secondVC.view.isHidden = true
+        
+//        addChildController(firstVC)
+//        removeChildController(secondVC)
     }
     
     @objc func segmentChanged() {
         firstVC.view.isHidden = segment.selectedSegmentIndex != 0
         secondVC.view.isHidden = segment.selectedSegmentIndex == 0
     }
+    
+    private func addChildController(_ controller: UIViewController) {
+        addChild(controller)
+        controller.view.frame = container.bounds
+        container.addSubview(controller.view)
+        controller.didMove(toParent: self)
+    }
+    
+//    @objc func segmentChanged() {
+//        if segment.selectedSegmentIndex == 0 {
+//            addChildController(firstVC)
+//            removeChildController(secondVC)
+//        }
+//        else {
+//            removeChildController(firstVC)
+//            addChildController(secondVC)
+//        }
+//    }
+//
+//    private func removeChildController(_ controller: UIViewController) {
+//        controller.willMove(toParent: nil)
+//        controller.view.removeFromSuperview()
+//        controller.removeFromParent()
+//    }
+    
 }

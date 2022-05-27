@@ -21,10 +21,12 @@ class TupleTableViewController: UITableViewController {
     }
     
     @objc func removeItem() {
-        ds.remove(at: ds.count - 1)
-        
-        let indexPath = IndexPath(row: ds.count, section: 0)
-        tableView.deleteRows(at: [indexPath], with: .fade)
+        if ds.count > 0 {
+            ds.remove(at: ds.count - 1)
+            
+            let indexPath = IndexPath(row: ds.count, section: 0)
+            tableView.deleteRows(at: [indexPath], with: .fade)
+        }
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

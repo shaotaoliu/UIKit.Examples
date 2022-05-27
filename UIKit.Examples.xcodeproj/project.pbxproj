@@ -26,6 +26,11 @@
 		4A4A4D6B27DC2C27008ACF87 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4A4D6A27DC2C27008ACF87 /* AnimationViewController.swift */; };
 		4A4A4D6D27DC8E44008ACF87 /* GestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4A4D6C27DC8E44008ACF87 /* GestureViewController.swift */; };
 		4A4A4D6F27DC9555008ACF87 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4A4D6E27DC9555008ACF87 /* ContainerViewController.swift */; };
+		4A4D2C8128257FC20021935C /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D2C8028257FC20021935C /* ActivityViewController.swift */; };
+		4A4D2C83282593C20021935C /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D2C82282593C20021935C /* InternetViewController.swift */; };
+		4A5B774D281F75ED006B1B50 /* Constraints2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B774C281F75ED006B1B50 /* Constraints2ViewController.swift */; };
+		4A5B774F281FA29A006B1B50 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5B774E281FA29A006B1B50 /* PDFViewController.swift */; };
+		4A5B7751281FA389006B1B50 /* sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4A5B7750281FA389006B1B50 /* sample.pdf */; };
 		4A5D9A7F27A3E64A004C7C2C /* pickers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5D9A7E27A3E64A004C7C2C /* pickers.storyboard */; };
 		4A5D9A8127A460DF004C7C2C /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D9A8027A460DF004C7C2C /* AlertViewController.swift */; };
 		4A5D9A8327A460ED004C7C2C /* SearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5D9A8227A460ED004C7C2C /* SearchBarViewController.swift */; };
@@ -50,18 +55,18 @@
 		4A72F58E27A32B9800C77184 /* examples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72F58D27A32B9800C77184 /* examples.swift */; };
 		4A72F59127A32EDF00C77184 /* WebSocketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72F59027A32EDF00C77184 /* WebSocketViewController.swift */; };
 		4A72F59427A3323200C77184 /* views.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A72F59327A3323200C77184 /* views.storyboard */; };
-		4A72F59627A3325100C77184 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72F59527A3325100C77184 /* CollectionViewController.swift */; };
 		4A72F59A27A3448700C77184 /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72F59927A3448700C77184 /* SpinnerViewController.swift */; };
 		4A72F59E27A35C6700C77184 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72F59D27A35C6700C77184 /* ImageViewController.swift */; };
 		4A72F5A027A367C500C77184 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72F59F27A367C500C77184 /* PickerViewController.swift */; };
 		4A72F5A227A37F4700C77184 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72F5A127A37F4700C77184 /* DatePickerViewController.swift */; };
 		4A72F5A427A3831700C77184 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72F5A327A3831700C77184 /* ColorPickerViewController.swift */; };
 		4A72F5A627A3832700C77184 /* FontPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72F5A527A3832700C77184 /* FontPickerViewController.swift */; };
+		4A75152B283DCAC6001F4B1E /* GradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A75152A283DCAC6001F4B1E /* GradientViewController.swift */; };
+		4A75152D283DE09B001F4B1E /* RingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A75152C283DE09B001F4B1E /* RingViewController.swift */; };
 		4A7E1C1327E7CD5700DEA1C3 /* PageExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E1C1227E7CD5700DEA1C3 /* PageExampleViewController.swift */; };
 		4A7E1C1D27E820E900DEA1C3 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E1C1C27E820E900DEA1C3 /* KeyboardViewController.swift */; };
-		4A9F7C7327F676D8005D800B /* Collection2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9F7C7227F676D8005D800B /* Collection2ViewController.swift */; };
+		4A990D15282302A000186D6B /* TransformViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A990D14282302A000186D6B /* TransformViewController.swift */; };
 		4A9F7C7527F67710005D800B /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9F7C7427F67710005D800B /* Global.swift */; };
-		4A9F7C7927F67E71005D800B /* Collection2ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9F7C7827F67E71005D800B /* Collection2ViewCell.swift */; };
 		4AB51EB027FA7E1C0031B1E1 /* TupleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB51EAF27FA7E1C0031B1E1 /* TupleTableViewController.swift */; };
 		4AB8F728280BA2BE00EF60BF /* StoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB8F727280BA2BE00EF60BF /* StoreTableViewController.swift */; };
 /* End PBXBuildFile section */
@@ -86,6 +91,11 @@
 		4A4A4D6A27DC2C27008ACF87 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		4A4A4D6C27DC8E44008ACF87 /* GestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureViewController.swift; sourceTree = "<group>"; };
 		4A4A4D6E27DC9555008ACF87 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		4A4D2C8028257FC20021935C /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		4A4D2C82282593C20021935C /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		4A5B774C281F75ED006B1B50 /* Constraints2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constraints2ViewController.swift; sourceTree = "<group>"; };
+		4A5B774E281FA29A006B1B50 /* PDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		4A5B7750281FA389006B1B50 /* sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sample.pdf; sourceTree = "<group>"; };
 		4A5D9A7E27A3E64A004C7C2C /* pickers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = pickers.storyboard; sourceTree = "<group>"; };
 		4A5D9A8027A460DF004C7C2C /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		4A5D9A8227A460ED004C7C2C /* SearchBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
@@ -112,18 +122,18 @@
 		4A72F58D27A32B9800C77184 /* examples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = examples.swift; sourceTree = "<group>"; };
 		4A72F59027A32EDF00C77184 /* WebSocketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketViewController.swift; sourceTree = "<group>"; };
 		4A72F59327A3323200C77184 /* views.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = views.storyboard; sourceTree = "<group>"; };
-		4A72F59527A3325100C77184 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		4A72F59927A3448700C77184 /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
 		4A72F59D27A35C6700C77184 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		4A72F59F27A367C500C77184 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		4A72F5A127A37F4700C77184 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
 		4A72F5A327A3831700C77184 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
 		4A72F5A527A3832700C77184 /* FontPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontPickerViewController.swift; sourceTree = "<group>"; };
+		4A75152A283DCAC6001F4B1E /* GradientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientViewController.swift; sourceTree = "<group>"; };
+		4A75152C283DE09B001F4B1E /* RingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingViewController.swift; sourceTree = "<group>"; };
 		4A7E1C1227E7CD5700DEA1C3 /* PageExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageExampleViewController.swift; sourceTree = "<group>"; };
 		4A7E1C1C27E820E900DEA1C3 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
-		4A9F7C7227F676D8005D800B /* Collection2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection2ViewController.swift; sourceTree = "<group>"; };
+		4A990D14282302A000186D6B /* TransformViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformViewController.swift; sourceTree = "<group>"; };
 		4A9F7C7427F67710005D800B /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
-		4A9F7C7827F67E71005D800B /* Collection2ViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection2ViewCell.swift; sourceTree = "<group>"; };
 		4AB51EAF27FA7E1C0031B1E1 /* TupleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TupleTableViewController.swift; sourceTree = "<group>"; };
 		4AB8F727280BA2BE00EF60BF /* StoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreTableViewController.swift; sourceTree = "<group>"; };
 		4AB8F729280BA57400EF60BF /* store-products.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = "store-products.storekit"; sourceTree = "<group>"; };
@@ -147,6 +157,7 @@
 				4A31AD9A27DD7CC00061A571 /* SecondViewController.swift */,
 				4A9F7C7427F67710005D800B /* Global.swift */,
 				4A03A0C42800D25F003CF301 /* myHomePage.html */,
+				4A5B7750281FA389006B1B50 /* sample.pdf */,
 				4A03A0CC2800F542003CF301 /* train.m4v */,
 				4A03A0C82800EE2E003CF301 /* music.mp3 */,
 				4AB8F729280BA57400EF60BF /* store-products.storekit */,
@@ -157,7 +168,6 @@
 		4A4A4D6927DC2BED008ACF87 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				4A9F7C7827F67E71005D800B /* Collection2ViewCell.swift */,
 				4A30686427CF44B000BC9678 /* TableViewModel.swift */,
 			);
 			path = Helpers;
@@ -243,11 +253,17 @@
 				4A7E1C1C27E820E900DEA1C3 /* KeyboardViewController.swift */,
 				4A3B14B427EEDF9C0018C2D7 /* Keyboard2ViewController.swift */,
 				4A040DC927ECE53300B9AC87 /* ConstraintsViewController.swift */,
+				4A5B774C281F75ED006B1B50 /* Constraints2ViewController.swift */,
 				4A1E23FE27F8E852004BD46F /* BlurViewController.swift */,
 				4A46582327FA4E3E009FA82E /* NotificationViewController.swift */,
 				4AB51EAF27FA7E1C0031B1E1 /* TupleTableViewController.swift */,
 				4A03A0C62800E8C6003CF301 /* MusicViewController.swift */,
 				4AB8F727280BA2BE00EF60BF /* StoreTableViewController.swift */,
+				4A5B774E281FA29A006B1B50 /* PDFViewController.swift */,
+				4A4D2C8028257FC20021935C /* ActivityViewController.swift */,
+				4A4D2C82282593C20021935C /* InternetViewController.swift */,
+				4A75152A283DCAC6001F4B1E /* GradientViewController.swift */,
+				4A75152C283DE09B001F4B1E /* RingViewController.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -257,13 +273,12 @@
 			children = (
 				4A4A4D6927DC2BED008ACF87 /* Helpers */,
 				4A72F59327A3323200C77184 /* views.storyboard */,
-				4A72F59527A3325100C77184 /* CollectionViewController.swift */,
-				4A9F7C7227F676D8005D800B /* Collection2ViewController.swift */,
 				4A5D9A8027A460DF004C7C2C /* AlertViewController.swift */,
 				4A5D9A8C27A4B53E004C7C2C /* ToobarViewController.swift */,
 				4A5D9A9427A4BB07004C7C2C /* PageControlViewController.swift */,
 				4A30686227CF448200BC9678 /* TableViewController.swift */,
 				4A4A4D6A27DC2C27008ACF87 /* AnimationViewController.swift */,
+				4A990D14282302A000186D6B /* TransformViewController.swift */,
 				4A7E1C1227E7CD5700DEA1C3 /* PageExampleViewController.swift */,
 				4A1C752D2814916D00D7DFC0 /* TouchViewController.swift */,
 			);
@@ -335,6 +350,7 @@
 				4A72F59427A3323200C77184 /* views.storyboard in Resources */,
 				4A03A0CD2800F542003CF301 /* train.m4v in Resources */,
 				4A5D9A9927A5003A004C7C2C /* others.storyboard in Resources */,
+				4A5B7751281FA389006B1B50 /* sample.pdf in Resources */,
 				4A03A0C52800D25F003CF301 /* myHomePage.html in Resources */,
 				4A03A0CB2800F1C1003CF301 /* Assets.xcassets in Resources */,
 				4A72F57C27A2908600C77184 /* Main.storyboard in Resources */,
@@ -349,10 +365,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A5D9A8527A47215004C7C2C /* SegmentControlViewController.swift in Sources */,
-				4A9F7C7927F67E71005D800B /* Collection2ViewCell.swift in Sources */,
 				4A5D9A8F27A4B93E004C7C2C /* ButtonViewController.swift in Sources */,
 				4A72F5A027A367C500C77184 /* PickerViewController.swift in Sources */,
+				4A4D2C8128257FC20021935C /* ActivityViewController.swift in Sources */,
 				4A4A4D6D27DC8E44008ACF87 /* GestureViewController.swift in Sources */,
+				4A990D15282302A000186D6B /* TransformViewController.swift in Sources */,
 				4A9F7C7527F67710005D800B /* Global.swift in Sources */,
 				4A03A0C72800E8C6003CF301 /* MusicViewController.swift in Sources */,
 				4AB8F728280BA2BE00EF60BF /* StoreTableViewController.swift in Sources */,
@@ -360,7 +377,9 @@
 				4A72F57927A2908600C77184 /* ViewController.swift in Sources */,
 				4A72F5A427A3831700C77184 /* ColorPickerViewController.swift in Sources */,
 				4A72F57527A2908600C77184 /* AppDelegate.swift in Sources */,
+				4A5B774F281FA29A006B1B50 /* PDFViewController.swift in Sources */,
 				4A5D9A8B27A4A581004C7C2C /* SliderViewController.swift in Sources */,
+				4A75152D283DE09B001F4B1E /* RingViewController.swift in Sources */,
 				4A03A0C12800B57C003CF301 /* MapViewController.swift in Sources */,
 				4A5D9A8927A4A54D004C7C2C /* StepperViewController.swift in Sources */,
 				4A72F59E27A35C6700C77184 /* ImageViewController.swift in Sources */,
@@ -372,13 +391,14 @@
 				4A7E1C1D27E820E900DEA1C3 /* KeyboardViewController.swift in Sources */,
 				4A72F59A27A3448700C77184 /* SpinnerViewController.swift in Sources */,
 				4A7E1C1327E7CD5700DEA1C3 /* PageExampleViewController.swift in Sources */,
+				4A4D2C83282593C20021935C /* InternetViewController.swift in Sources */,
+				4A5B774D281F75ED006B1B50 /* Constraints2ViewController.swift in Sources */,
 				4A31AD9B27DD7CC00061A571 /* SecondViewController.swift in Sources */,
 				4A30686327CF448200BC9678 /* TableViewController.swift in Sources */,
 				4A03A0C32800B582003CF301 /* WebViewController.swift in Sources */,
-				4A9F7C7327F676D8005D800B /* Collection2ViewController.swift in Sources */,
 				4A1E23FF27F8E852004BD46F /* BlurViewController.swift in Sources */,
+				4A75152B283DCAC6001F4B1E /* GradientViewController.swift in Sources */,
 				4A5D9A9527A4BB07004C7C2C /* PageControlViewController.swift in Sources */,
-				4A72F59627A3325100C77184 /* CollectionViewController.swift in Sources */,
 				4A040DCA27ECE53300B9AC87 /* ConstraintsViewController.swift in Sources */,
 				4A5D9A8327A460ED004C7C2C /* SearchBarViewController.swift in Sources */,
 				4A5D9A8727A48338004C7C2C /* ProgressBarViewController.swift in Sources */,
