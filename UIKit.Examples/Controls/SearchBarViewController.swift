@@ -30,6 +30,10 @@ class SearchBarViewController: UIViewController {
 
 extension SearchBarViewController: UISearchBarDelegate {
     
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        table.reloadData()
+    }
+    
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         table.reloadData()
     }
